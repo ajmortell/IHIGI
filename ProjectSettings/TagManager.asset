@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - CheckBox
+  - SelectAllBox
+  - MailItemFab
+  - Inbox
+  - Sent
+  - Spam
+  - Trash
+  - Sections
+  - InboxButton
+  - SentButton
+  - SpamButton
+  - TrashButton
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Splash
+    uniqueID: 3495249459
+    locked: 0
+  - name: LoadImage
+    uniqueID: 406412761
+    locked: 0
+  - name: BG
+    uniqueID: 3248129835
+    locked: 0
+  - name: WireFrame
+    uniqueID: 1429760533
+    locked: 0
+  - name: Buttons
+    uniqueID: 733074589
+    locked: 0
