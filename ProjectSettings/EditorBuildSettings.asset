@@ -15,3 +15,5 @@ EditorBuildSettings:
     path: Assets/SCENES/Game/MailScene.unity
   - enabled: 1
     path: Assets/SCENES/Game/ResumeScene.unity
+  - enabled: 1
+    path: Assets/SCENES/Game/SocialMapScene.unity

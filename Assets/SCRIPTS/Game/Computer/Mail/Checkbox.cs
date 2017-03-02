@@ -10,11 +10,13 @@ public class Checkbox : MonoBehaviour {
     private bool canSelect = true;
 
     private void Awake() {
-        checkbox = GetComponent<Toggle>();
+        checkbox = gameObject.GetComponent<Toggle>();
     }
 
     public bool returnSelected() {
+        print("RETURNING... " + checkbox.isOn);
         return checkbox.isOn;
+       
     }
 
     public void checkSelected(bool value) {

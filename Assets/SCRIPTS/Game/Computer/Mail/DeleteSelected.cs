@@ -1,8 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.UI;
+﻿using System;
 using UnityEngine;
-
+using UnityEngine.UI;
+using System.Collections;
+using UnityEngine.EventSystems;
+using System.Collections.Generic;
 
 public class DeleteSelected : MonoBehaviour {
 
@@ -10,40 +11,38 @@ public class DeleteSelected : MonoBehaviour {
     public GameObject[] checkboxes =null;
 
     public Toggle checkBoxToggle = null;
-    public GameObject[] mailItemFabs = null;
+    public List<GameObject> mailItemFabs = null;
     
     public bool isDeleted = false;
 
     private void Awake() {
         checkbox = GetComponent<Checkbox>();
-
     }
 
-    public void deleteItems(GameObject[] newItems) {
+    public void deleteItems() {
        
-        foreach (GameObject fabObjects in newItems) {
-            Destroy(fabObjects);
-            Debug.Log("DESTROYED THAT @#$% YO!");
+        foreach (GameObject item in mailItemFabs) {
+            Destroy(item);
+            
+            Debug.Log("DESTROYED");
         }
     }
 
     public void iterateAndDelete() {
-        checkboxes = GameObject.FindGameObjectsWithTag("CheckBox"); 
-        //mailItemFab = GetComponent<GameObject>();
-       
-
+        checkboxes = GameObject.FindGameObjectsWithTag("CheckBox");
+        
         foreach (GameObject checkBoxObject in checkboxes) { /* 1 */
            
             checkBoxToggle = checkBoxObject.GetComponent<Toggle>();
             checkbox = checkBoxToggle.GetComponent<Checkbox>();
 
             if (checkbox.returnSelected() == true) { /* 2 */
-
-                deleteItems(mailItemFabs);
-                print("DELETE");
+                mailItemFabs.Add(GameObject.FindGameObjectWithTag("MailItemFab"));
+                deleteItems();
+                print("DELETED");
 
             } else {
-                print("NOT DELETE");
+                print("NOT DELETED");
             } /* 2 */
 
         } /* 1 */

@@ -111,6 +111,8 @@
     <Compile Include="Assets\SCRIPTS\Game\GameTimer.cs" />
     <Compile Include="Assets\SCRIPTS\Game\ItemList.cs" />
     <Compile Include="Assets\SCRIPTS\Game\LoadScene.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Social\Map\MapMarquee.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Social\Map\SelectArea.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

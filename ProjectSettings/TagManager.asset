@@ -16,6 +16,7 @@ TagManager:
   - SentButton
   - SpamButton
   - TrashButton
+  - SelectableArea
   layers:
   - Default
   - TransparentFX
