@@ -57,6 +57,9 @@ TagManager:
   - name: Splash
     uniqueID: 3495249459
     locked: 0
+  - name: Canvas
+    uniqueID: 2386167883
+    locked: 0
   - name: LoadImage
     uniqueID: 406412761
     locked: 0

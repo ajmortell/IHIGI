@@ -14,7 +14,8 @@ public class MapMarquee : MonoBehaviour {
 
     private void OnGUI() {
 
-        marqueeRect = new Rect(marqueeOrigin.x, marqueeOrigin.y, marqueeSize.x, marqueeSize.y);
+        //marqueeRect = new Rect(marqueeOrigin.x, marqueeOrigin.y, marqueeSize.x, marqueeSize.y);
+        marqueeRect = new Rect(marqueeOrigin.x, marqueeOrigin.y , 64, 32);
         GUI.color = new Color(8.0f, 0.0f, 255.0f, 0.5f);
         
         GUI.DrawTexture(marqueeRect, marqueeTexture);
