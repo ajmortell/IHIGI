@@ -1,35 +1,35 @@
 fileFormatVersion: 2
 guid: cc1c4e2d2e2eebc40867ba406b047353
-timeCreated: 1487104981
+timeCreated: 1488788026
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: gameFontSheet_0
-    21300002: gameFontSheet_1
-    21300004: gameFontSheet_2
-    21300006: gameFontSheet_3
-    21300008: gameFontSheet_4
-    21300010: gameFontSheet_5
-    21300012: gameFontSheet_6
-    21300014: gameFontSheet_7
-    21300016: gameFontSheet_8
-    21300018: gameFontSheet_9
-    21300020: gameFontSheet_10
-    21300022: gameFontSheet_11
-    21300024: gameFontSheet_12
-    21300026: gameFontSheet_13
-    21300028: gameFontSheet_14
-    21300030: gameFontSheet_15
-    21300032: gameFontSheet_16
-    21300034: gameFontSheet_17
-    21300036: gameFontSheet_18
-    21300038: gameFontSheet_19
-    21300040: gameFontSheet_20
-    21300042: gameFontSheet_21
-    21300044: gameFontSheet_22
-    21300046: gameFontSheet_23
-    21300048: gameFontSheet_24
-    21300050: gameFontSheet_25
+    21300000: a
+    21300002: b
+    21300004: c
+    21300006: d
+    21300008: e
+    21300010: f
+    21300012: g
+    21300014: h
+    21300016: i
+    21300018: j
+    21300020: k
+    21300022: l
+    21300024: m
+    21300026: n
+    21300028: o
+    21300030: p
+    21300032: q
+    21300034: r
+    21300036: s
+    21300038: t
+    21300040: u
+    21300042: v
+    21300044: w
+    21300046: x
+    21300048: y
+    21300050: z
     21300052: gameFontSheet_26
     21300054: gameFontSheet_27
     21300056: gameFontSheet_28
@@ -56,25 +56,25 @@ TextureImporter:
     21300098: gameFontSheet_49
     21300100: gameFontSheet_50
     21300102: gameFontSheet_51
-    21300104: gameFontSheet_52
-    21300106: gameFontSheet_53
-    21300108: gameFontSheet_54
+    21300104: '!'
+    21300106: .
+    21300108: ','
     21300110: gameFontSheet_55
     21300112: gameFontSheet_56
-    21300114: gameFontSheet_57
-    21300116: gameFontSheet_58
+    21300114: '#'
+    21300116: '%'
     21300118: gameFontSheet_59
-    21300120: gameFontSheet_60
-    21300122: gameFontSheet_61
-    21300124: gameFontSheet_62
-    21300126: gameFontSheet_63
+    21300120: +
+    21300122: '-'
+    21300124: )
+    21300126: (
     21300128: gameFontSheet_64
     21300130: gameFontSheet_65
     21300132: gameFontSheet_66
     21300134: gameFontSheet_67
-    21300136: gameFontSheet_68
-    21300138: gameFontSheet_69
-    21300140: gameFontSheet_70
+    21300136: '&'
+    21300138: $
+    21300140: =
     21300142: gameFontSheet_71
     21300144: gameFontSheet_72
     21300146: gameFontSheet_73
@@ -82,25 +82,25 @@ TextureImporter:
     21300150: gameFontSheet_75
     21300152: gameFontSheet_76
     21300154: gameFontSheet_77
-    21300156: gameFontSheet_78
-    21300158: gameFontSheet_79
-    21300160: gameFontSheet_80
-    21300162: gameFontSheet_81
-    21300164: gameFontSheet_82
-    21300166: gameFontSheet_83
-    21300168: gameFontSheet_84
-    21300170: gameFontSheet_85
-    21300172: gameFontSheet_86
-    21300174: gameFontSheet_87
-    21300176: gameFontSheet_88
+    21300156: 1
+    21300158: 2
+    21300160: 3
+    21300162: 4
+    21300164: 5
+    21300166: 6
+    21300168: 7
+    21300170: 8
+    21300172: 9
+    21300174: 0
+    21300176: '@'
     21300178: gameFontSheet_89
     21300180: gameFontSheet_90
     21300182: gameFontSheet_91
     21300184: gameFontSheet_92
-    21300186: gameFontSheet_93
-    21300188: gameFontSheet_94
-    21300190: gameFontSheet_95
-    21300192: gameFontSheet_96
+    21300186: 1_SML
+    21300188: 2_SML
+    21300190: 3_SML
+    21300192: 4_SML
     21300194: gameFontSheet_97
     21300196: gameFontSheet_98
     21300198: gameFontSheet_99
@@ -149,15 +149,15 @@ TextureImporter:
     21300284: gameFontSheet_142
     21300286: gameFontSheet_143
     21300288: gameFontSheet_144
-    21300290: gameFontSheet_145
-    21300292: gameFontSheet_146
-    21300294: gameFontSheet_147
-    21300296: gameFontSheet_148
-    21300298: gameFontSheet_149
-    21300300: gameFontSheet_150
-    21300302: gameFontSheet_151
-    21300304: gameFontSheet_152
-    21300306: gameFontSheet_153
+    21300290: 5_SML
+    21300292: 6_SML
+    21300294: 7_SML
+    21300296: 8_SML
+    21300298: 9_SML
+    21300300: 0_SML
+    21300302: '!_SML'
+    21300304: questionMark_SML
+    21300306: '#_SML'
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -240,7 +240,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gameFontSheet_0
+      name: a
       rect:
         serializedVersion: 2
         x: 1
@@ -253,7 +253,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_1
+      name: b
       rect:
         serializedVersion: 2
         x: 6
@@ -266,7 +266,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_2
+      name: c
       rect:
         serializedVersion: 2
         x: 11
@@ -279,7 +279,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_3
+      name: d
       rect:
         serializedVersion: 2
         x: 16
@@ -292,7 +292,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_4
+      name: e
       rect:
         serializedVersion: 2
         x: 21
@@ -305,7 +305,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_5
+      name: f
       rect:
         serializedVersion: 2
         x: 27
@@ -318,7 +318,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_6
+      name: g
       rect:
         serializedVersion: 2
         x: 33
@@ -331,7 +331,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_7
+      name: h
       rect:
         serializedVersion: 2
         x: 38
@@ -344,7 +344,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_8
+      name: i
       rect:
         serializedVersion: 2
         x: 43
@@ -357,7 +357,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_9
+      name: j
       rect:
         serializedVersion: 2
         x: 45
@@ -370,7 +370,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_10
+      name: k
       rect:
         serializedVersion: 2
         x: 50
@@ -383,7 +383,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_11
+      name: l
       rect:
         serializedVersion: 2
         x: 55
@@ -396,7 +396,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_12
+      name: m
       rect:
         serializedVersion: 2
         x: 58
@@ -409,7 +409,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_13
+      name: n
       rect:
         serializedVersion: 2
         x: 1
@@ -422,7 +422,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_14
+      name: o
       rect:
         serializedVersion: 2
         x: 6
@@ -435,20 +435,20 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_15
+      name: p
       rect:
         serializedVersion: 2
         x: 11
-        y: 45
+        y: 46
         width: 4
-        height: 6
+        height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_16
+      name: q
       rect:
         serializedVersion: 2
         x: 16
@@ -461,7 +461,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_17
+      name: r
       rect:
         serializedVersion: 2
         x: 21
@@ -474,7 +474,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_18
+      name: s
       rect:
         serializedVersion: 2
         x: 26
@@ -487,7 +487,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_19
+      name: t
       rect:
         serializedVersion: 2
         x: 31
@@ -500,7 +500,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_20
+      name: u
       rect:
         serializedVersion: 2
         x: 36
@@ -513,7 +513,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_21
+      name: v
       rect:
         serializedVersion: 2
         x: 41
@@ -526,7 +526,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_22
+      name: w
       rect:
         serializedVersion: 2
         x: 46
@@ -539,7 +539,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_23
+      name: x
       rect:
         serializedVersion: 2
         x: 52
@@ -552,20 +552,20 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_24
+      name: y
       rect:
         serializedVersion: 2
         x: 57
         y: 45
         width: 4
-        height: 6
+        height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_25
+      name: z
       rect:
         serializedVersion: 2
         x: 1
@@ -916,7 +916,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_52
+      name: '!'
       rect:
         serializedVersion: 2
         x: 1
@@ -929,7 +929,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_53
+      name: .
       rect:
         serializedVersion: 2
         x: 3
@@ -942,7 +942,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_54
+      name: ','
       rect:
         serializedVersion: 2
         x: 5
@@ -981,7 +981,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_57
+      name: '#'
       rect:
         serializedVersion: 2
         x: 11
@@ -994,7 +994,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_58
+      name: '%'
       rect:
         serializedVersion: 2
         x: 17
@@ -1020,7 +1020,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_60
+      name: +
       rect:
         serializedVersion: 2
         x: 25
@@ -1033,7 +1033,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_61
+      name: '-'
       rect:
         serializedVersion: 2
         x: 29
@@ -1046,7 +1046,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_62
+      name: )
       rect:
         serializedVersion: 2
         x: 33
@@ -1059,7 +1059,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_63
+      name: (
       rect:
         serializedVersion: 2
         x: 36
@@ -1124,7 +1124,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_68
+      name: '&'
       rect:
         serializedVersion: 2
         x: 19
@@ -1137,7 +1137,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_69
+      name: $
       rect:
         serializedVersion: 2
         x: 25
@@ -1150,7 +1150,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_70
+      name: =
       rect:
         serializedVersion: 2
         x: 30
@@ -1254,7 +1254,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_78
+      name: 1
       rect:
         serializedVersion: 2
         x: 1
@@ -1267,7 +1267,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_79
+      name: 2
       rect:
         serializedVersion: 2
         x: 3
@@ -1280,7 +1280,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_80
+      name: 3
       rect:
         serializedVersion: 2
         x: 7
@@ -1293,7 +1293,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_81
+      name: 4
       rect:
         serializedVersion: 2
         x: 11
@@ -1306,7 +1306,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_82
+      name: 5
       rect:
         serializedVersion: 2
         x: 15
@@ -1319,7 +1319,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_83
+      name: 6
       rect:
         serializedVersion: 2
         x: 19
@@ -1332,7 +1332,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_84
+      name: 7
       rect:
         serializedVersion: 2
         x: 23
@@ -1345,7 +1345,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_85
+      name: 8
       rect:
         serializedVersion: 2
         x: 27
@@ -1358,7 +1358,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_86
+      name: 9
       rect:
         serializedVersion: 2
         x: 31
@@ -1371,7 +1371,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_87
+      name: 0
       rect:
         serializedVersion: 2
         x: 35
@@ -1384,7 +1384,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_88
+      name: '@'
       rect:
         serializedVersion: 2
         x: 45
@@ -1449,7 +1449,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_93
+      name: 1_SML
       rect:
         serializedVersion: 2
         x: 69
@@ -1462,7 +1462,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_94
+      name: 2_SML
       rect:
         serializedVersion: 2
         x: 72
@@ -1475,7 +1475,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_95
+      name: 3_SML
       rect:
         serializedVersion: 2
         x: 76
@@ -1488,7 +1488,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_96
+      name: 4_SML
       rect:
         serializedVersion: 2
         x: 80
@@ -2125,7 +2125,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_145
+      name: 5_SML
       rect:
         serializedVersion: 2
         x: 84
@@ -2138,7 +2138,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_146
+      name: 6_SML
       rect:
         serializedVersion: 2
         x: 88
@@ -2151,7 +2151,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_147
+      name: 7_SML
       rect:
         serializedVersion: 2
         x: 92
@@ -2164,7 +2164,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_148
+      name: 8_SML
       rect:
         serializedVersion: 2
         x: 96
@@ -2177,7 +2177,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_149
+      name: 9_SML
       rect:
         serializedVersion: 2
         x: 100
@@ -2190,7 +2190,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_150
+      name: 0_SML
       rect:
         serializedVersion: 2
         x: 104
@@ -2203,7 +2203,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_151
+      name: '!_SML'
       rect:
         serializedVersion: 2
         x: 108
@@ -2216,7 +2216,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_152
+      name: questionMark_SML
       rect:
         serializedVersion: 2
         x: 110
@@ -2229,7 +2229,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: gameFontSheet_153
+      name: '#_SML'
       rect:
         serializedVersion: 2
         x: 114
