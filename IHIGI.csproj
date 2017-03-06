@@ -84,6 +84,7 @@
     <Compile Include="Assets\SCRIPTS\Cut\AnimateText.cs" />
     <Compile Include="Assets\SCRIPTS\Cut\IntroScript.cs" />
     <Compile Include="Assets\SCRIPTS\Cut\SkipButton.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\AnimCtrlr.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Computer\Cell.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Computer\Computer.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Computer\LeftDrawer.cs" />
