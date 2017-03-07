@@ -1,10 +1,10 @@
-# IHIGI (TM)
-A game about the joys of looking for work...
+# IHIGI
 
-I Hope I Get It (TM)
-__________________________________________________________
-Adam Mortell: Writting, Graphics, Programming, Music 
+I HOPE I GET IT (TM)
+____________________________________________________________
+A game about the joys of looking for work.
 
-Created with Unity. Written in C#.
+created by Adam Mortell
 
-All art and music is original work with a 2D aesthetic. Copyright 2017 Adam Mortell 
+Copyright 2017
+
