@@ -15,7 +15,7 @@ public class GridTile : MonoBehaviour {
         self = gameObject;
         tileImage = self.GetComponent<Image>();
         tileImage.color = Color.clear;
-        print("TILE AWAKE: " + self.name);
+        //print("TILE AWAKE: " + self.name);
     }
 
     IEnumerator Fader() {
