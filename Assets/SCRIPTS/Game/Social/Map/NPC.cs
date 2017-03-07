@@ -10,8 +10,8 @@ public class NPC : MonoBehaviour {
 	private void Awake () {
         npc = GetComponent<GameObject>();
         npc = gameObject;
-        npcTransform = gameObject.transform;
-        //print("++++//~~~~~~~~~~~~ NPC NAME: "+npc.name);
+        npcTransform = npc.transform;
+        print("++++//~~~~~~~~~~~~ NPC POS: " + npcTransform.position);
 	}
 	
 

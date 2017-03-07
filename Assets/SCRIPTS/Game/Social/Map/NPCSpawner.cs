@@ -9,15 +9,12 @@ public class NPCSpawner : MonoBehaviour {
     public GameObject NPCObject;
     private List<GameObject> NPCPool;    
     private Vector2 spawnValues;
-    private int NPCCount;
     private float spawnWait;
     private float startWait;
     private float mobWait;
 
     private void Awake() {
         MapPanel = gameObject;
-        
-        NPCCount = 1;
         StartCoroutine(WaitThenSpawnMob());
     }
 
@@ -26,24 +23,23 @@ public class NPCSpawner : MonoBehaviour {
         yield return new WaitForSeconds(startWait);
 
         while (true) {
+
             // Pos Ranges
-            spawnValues.x = Random.Range(0, 128);
-            spawnValues.y = Random.Range(0, 96);   
+            spawnValues.x = Random.Range(0,128);
+            spawnValues.y = Random.Range(0,96);
             // Timers
             spawnWait = Random.Range(1, 4);
-            startWait = Random.Range(1, 4);
-            mobWait = Random.Range(1, 4);
+            startWait = Random.Range(1, 2);
+            mobWait = Random.Range(1, 2);
         
-            for (int i = 0; i < NPCCount; i++) {
+            for (int i = 0; i < 1; i++) {
 
-                //Instantiate(NPCObject, Vector2(Random.Range(minY,maxY), Random.Range(minX,maxX)), Quaternion.identity)
+                Vector2 spawnPos = new Vector2(spawnValues.x-64, spawnValues.y-48);
+                print("++++//~~~~~~~~~~~~ SPAWN POS: " + spawnPos);
 
-                Vector2 spawnPos = new Vector2(spawnValues.x, spawnValues.y);
-                //Vector2 spawnPos = new Vector2(Random.Range(-spawnValues.x, spawnValues.x), Random.Range(-spawnValues.y, spawnValues.y));
                 Quaternion spawnRotation = Quaternion.identity;
-                Instantiate(NPCObject, spawnPos, spawnRotation);
-                NPCObject.transform.SetParent(MapPanel.transform);
-
+                GameObject newItem = Instantiate(NPCObject, spawnPos, spawnRotation);
+                newItem.transform.SetParent(MapPanel.transform);
                 yield return new WaitForSeconds(spawnWait);
             }
             yield return new WaitForSeconds(mobWait);
@@ -51,8 +47,7 @@ public class NPCSpawner : MonoBehaviour {
         }
     }
 
-    IEnumerator SpawnSingleNPC(float timer, bool spawn)
-    {
+    IEnumerator SpawnSingleNPC(float timer, bool spawn) {
         while (spawn == true)
         {
             for (int i = 0; i < 1; i++)
@@ -62,14 +57,10 @@ public class NPCSpawner : MonoBehaviour {
                 Instantiate(NPCObject, spawnPos, spawnRotation);
                 yield return new WaitForSeconds(timer);
             }
-            //NPCPool.Add(NPCObject);
-            //print("NPC POOL COUNT" + NPCPool.Count);
             yield return new WaitForSeconds(timer);
             spawn = false;
         }
     }
-
-   
 
     private void Update() {
 
