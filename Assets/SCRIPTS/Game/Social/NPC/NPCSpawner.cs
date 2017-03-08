@@ -21,9 +21,10 @@ public class NPCSpawner : MonoBehaviour {
     IEnumerator WaitThenSpawnMob() {
 
         yield return new WaitForSeconds(startWait);
-
-        while (true) {
-
+        bool stopSpawn = false;
+        //while (stopSpawn == false) {
+        while (true)
+        {
             // Pos Ranges
             spawnValues.x = Random.Range(0,128);
             spawnValues.y = Random.Range(0,96);
@@ -35,7 +36,7 @@ public class NPCSpawner : MonoBehaviour {
             for (int i = 0; i < 1; i++) {
 
                 Vector2 spawnPos = new Vector2(spawnValues.x-64, spawnValues.y-48);
-                print("++++//~~~~~~~~~~~~ SPAWN POS: " + spawnPos);
+                //print("++++//~~~~~~~~~~~~ SPAWN POS: " + spawnPos);
 
                 Quaternion spawnRotation = Quaternion.identity;
                 GameObject newItem = Instantiate(NPCObject, spawnPos, spawnRotation);
@@ -43,7 +44,7 @@ public class NPCSpawner : MonoBehaviour {
                 yield return new WaitForSeconds(spawnWait);
             }
             yield return new WaitForSeconds(mobWait);
-            
+            stopSpawn = true;
         }
     }
 
