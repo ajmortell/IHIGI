@@ -22,9 +22,11 @@ GameObject:
   - component: {fileID: 212990611802404456}
   - component: {fileID: 114539052744633704}
   - component: {fileID: 114094328420073606}
+  - component: {fileID: 61165653864421958}
+  - component: {fileID: 114421737150470684}
   m_Layer: 0
   m_Name: npcPrefab
-  m_TagString: Untagged
+  m_TagString: npc
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42,6 +44,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &61165653864421958
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1996873836134068}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
 --- !u!114 &114094328420073606
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51,6 +67,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8e80bdbd8425d7e4aabd4b4d93edf170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114421737150470684
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1996873836134068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5df9429d29c2804ca0f520d2aa9b52d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &114539052744633704

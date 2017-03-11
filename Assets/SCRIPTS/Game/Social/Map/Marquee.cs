@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MapMarquee : MonoBehaviour {
+public class Marquee : MonoBehaviour {
 
     public Texture marqueeTexture;
 

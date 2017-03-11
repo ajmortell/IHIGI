@@ -18,6 +18,8 @@ TagManager:
   - TrashButton
   - SelectableArea
   - Map
+  - Waypoint
+  - npc
   layers:
   - Default
   - TransparentFX

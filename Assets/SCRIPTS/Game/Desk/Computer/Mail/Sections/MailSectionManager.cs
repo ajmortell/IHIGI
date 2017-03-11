@@ -22,7 +22,7 @@ public class MailSectionManager : MonoBehaviour
         }
         foreach (GameObject fabObjects in newItems) {
             Destroy(fabObjects);
-            Debug.Log("DESTROYED THAT @#$% YO!");
+            //Debug.Log("DESTROYED THAT @#$% YO!");
         }
     }
 
@@ -64,7 +64,7 @@ public class MailSectionManager : MonoBehaviour
             newItem.transform.SetParent(ContentPanel.transform);
             newItem.transform.localScale = Vector3.one;
         }
-        Debug.Log("LIST COUNT: " + mailItems.Count);
+        //Debug.Log("LIST COUNT: " + mailItems.Count);
     }
     
     public void OnSelection(GameObject obj) {
@@ -73,19 +73,19 @@ public class MailSectionManager : MonoBehaviour
 
         switch (tagName) {
             case "InboxButton" :
-                Debug.Log(tagName + " SELECTED");
+                //Debug.Log(tagName + " SELECTED");
                 layoutItems(tagName);
                 break;
             case "SentButton"  :
-                Debug.Log(tagName + " SELECTED");
+                //Debug.Log(tagName + " SELECTED");
                 layoutItems(tagName);
                 break;
             case "SpamButton"  :
-                Debug.Log(tagName + " SELECTED");
+                //Debug.Log(tagName + " SELECTED");
                 layoutItems(tagName);
                 break;
             case "TrashButton" :
-                Debug.Log(tagName + " SELECTED");
+                //Debug.Log(tagName + " SELECTED");
                 layoutItems(tagName);
                 break;
         }

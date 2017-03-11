@@ -21,7 +21,7 @@ public class NPC : MonoBehaviour {
         npcFocus = 40.0f;
         npcEnergy = 80.0f;
         
-        print("++++//~~~~~~~~~~~~ NPC POS: " + npcTransform.position);
+        //print("++++//~~~~~~~~~~~~ NPC POS: " + npcTransform.position);
 	}
 
 

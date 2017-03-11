@@ -22,9 +22,8 @@ public class NPCSpawner : MonoBehaviour {
 
         yield return new WaitForSeconds(startWait);
         bool stopSpawn = false;
-        //while (stopSpawn == false) {
-        while (true)
-        {
+        while (stopSpawn == false) {
+        //while (true) {
             // Pos Ranges
             spawnValues.x = Random.Range(0,128);
             spawnValues.y = Random.Range(0,96);
