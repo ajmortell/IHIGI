@@ -117,10 +117,12 @@
     <Compile Include="Assets\SCRIPTS\Game\Social\Map\SelectArea.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Social\Map\SocialGrid.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Social\Map\Waypoint.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Social\Map\WaypointManager.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Social\NPC\NPC.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Social\NPC\NPCController.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Social\NPC\NPCSpawner.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Social\NPC\NPCTravel.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Social\NPC\Spawner.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

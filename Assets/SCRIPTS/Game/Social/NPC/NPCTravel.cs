@@ -1,68 +1,57 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
 using System.Collections;
-using UnityEngine.EventSystems;
 using System.Collections.Generic;
 
-
 public class NPCTravel : MonoBehaviour {
-    
-    private GameObject[] waypointObjects;// list of the game objects that are waypoints
+       
     private List<Transform> waypoints;
-    private Transform singlewWaypoint; // a single waypoint transform 
-
-    private GameObject npcObject;
-    
-    private int endPoint = 0;
+    private Transform waypoint; 
+    private int nextPoint;
+    private float speed;
 
     private void Awake() {
 
-        waypointObjects = GameObject.FindGameObjectsWithTag("Waypoint");
+        nextPoint = 0;
+        speed = Random.Range(1.0f, 10.0f);
+        waypoint = null;
         waypoints = new List<Transform>();
-
-        npcObject = gameObject; 
-
-        foreach (GameObject waypoint in waypointObjects) {
-            
-            singlewWaypoint = waypoint.transform;
-            waypoints.Add(singlewWaypoint);
-          
-        }   
-        
-        GotoNextPoint();
+        AddNPCs();
     }
 
-    void GotoNextPoint()
-    {
-        // Returns if no points have been set up
-        if (waypoints.Count == 0) {
-            return;
+    public void AddNPCs() {
+        GameObject[] waypointObjects = GameObject.FindGameObjectsWithTag("Waypoint");
+        foreach (GameObject obj in waypointObjects) {
+            AddTarget(obj.transform);
         }
-        // Set the agent to go to the currently selected destination.
-        npcObject.transform.localPosition = waypoints[endPoint].position;
-
-        // Choose the next point in the array as the destination,
-        // cycling to the start if necessary.
-        endPoint = (endPoint + 1) % waypoints.Count;
     }
 
-    IEnumerator wait()
-    {
-        yield return new WaitForSeconds(4.0f);
-        GotoNextPoint();
+    public void AddTarget(Transform target) {
+        waypoints.Add(target);
+    }
+    
+    public void DistanceToTarget() {
+        waypoints.Sort(delegate (Transform t1, Transform t2) {
+            return Vector3.Distance(t1.transform.position, transform.position).CompareTo(Vector3.Distance(t2.transform.position, transform.position));
+        });
+
     }
 
-    void LateUpdate()
-    {
-        //npcObjects = GameObject.FindGameObjectsWithTag("npc");
-        //print("npcObjects length: " + npcObjects.Length);
-        //foreach (GameObject npc in npcObjects) {
-        //    npcs.Add(npc);
-        //    print("NPC COUNT ADDED TO LIST: " + npcs.Count);
-            StartCoroutine(wait());
-        //}
+    public void GoToWaypoint() {
+
+        if (waypoint == null) {
+
+            DistanceToTarget();
+            waypoint = waypoints[0];
+        }
+    }
+
+    void LateUpdate() {
         
+        GoToWaypoint();
+        float dist = Vector2.Distance(waypoint.transform.position, transform.position);
+        transform.position = Vector2.MoveTowards(transform.position, waypoint.position, speed * Time.deltaTime);
+
     }
 }

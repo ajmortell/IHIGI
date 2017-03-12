@@ -481,7 +481,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 65970372}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76f6db005e6bc794495f8ea93e620255, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a07191cf34e71d4dbab056940ed444f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   MapPanel: {fileID: 65970372}
