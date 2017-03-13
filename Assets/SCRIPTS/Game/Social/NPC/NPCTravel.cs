@@ -17,33 +17,40 @@ public class NPCTravel : MonoBehaviour {
         speed = Random.Range(1.0f, 10.0f);
         waypoint = null;
         waypoints = new List<Transform>();
-        AddNPCs();
+        GatherWaypoints();
     }
 
-    public void AddNPCs() {
+    public void GatherWaypoints() {
         GameObject[] waypointObjects = GameObject.FindGameObjectsWithTag("Waypoint");
         foreach (GameObject obj in waypointObjects) {
-            AddTarget(obj.transform);
+            AddWaypoint(obj.transform);
         }
     }
 
-    public void AddTarget(Transform target) {
+    public void AddWaypoint(Transform target) {
         waypoints.Add(target);
     }
     
     public void DistanceToTarget() {
         waypoints.Sort(delegate (Transform t1, Transform t2) {
-            return Vector3.Distance(t1.transform.position, transform.position).CompareTo(Vector3.Distance(t2.transform.position, transform.position));
+            return Vector2.Distance(t1.transform.position, transform.position).CompareTo(Vector2.Distance(t2.transform.position, transform.position));
         });
 
+    }
+
+    IEnumerator SetupNext() {
+        yield return new WaitForSeconds(5);
+        waypoint = null;
     }
 
     public void GoToWaypoint() {
 
         if (waypoint == null) {
-
+            nextPoint = (nextPoint +1)% waypoints.Count;
             DistanceToTarget();
-            waypoint = waypoints[0];
+            waypoint = waypoints[nextPoint];
+            print("WAYPOINT NEXT POINT: " + waypoints[nextPoint]);
+            StartCoroutine(SetupNext());
         }
     }
 

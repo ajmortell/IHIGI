@@ -20,6 +20,7 @@ public class Spawner : MonoBehaviour
 
     // STARTUP
     private void Awake() {
+      
         MapPanel = gameObject;
         waypoints = new List<Transform>();
         CollectWaypoints();
