@@ -8,6 +8,7 @@ public class NPC : MonoBehaviour {
     public GameObject npc;
     Transform npcTransform;
     private SpriteRenderer npcImage;
+    private float sleep;
     private int mind;
     private int strength;
     private int heart;
@@ -18,10 +19,9 @@ public class NPC : MonoBehaviour {
         //npc = GetComponent<GameObject>();
         npc = gameObject;
         npcTransform = npc.transform;
-        npcFocus = 40.0f;
-        npcEnergy = 80.0f;
-        
-        //print("++++//~~~~~~~~~~~~ NPC POS: " + npcTransform.position);
+        npcFocus = Random.Range(5.0f, 40.0f);
+        npcEnergy = Random.Range(0.01f,0.05f);
+        //print("++++//~~~~~~~~~~~~ NPC ENERGY: " + npcEnergy);
 	}
 
 
@@ -35,11 +35,10 @@ public class NPC : MonoBehaviour {
        
         if (npcFocus <= 0) {
             npcFocus = 0;
-            //Debug.Log("NPC FOCUS: " + npcFocus);
             StartCoroutine(fadeNPC());
         } else {
-            npcFocus -= 0.05f * Time.deltaTime;
-           // Debug.Log("NPC FOCUS: " + npcFocus);
+            npcFocus -= npcEnergy * Time.deltaTime;
+            //Debug.Log("NPC FOCUS: " + npcFocus);
         }
     }
 
@@ -47,13 +46,11 @@ public class NPC : MonoBehaviour {
         return npcFocus;
     }
 
-    IEnumerator fadeNPC()
-    {
+    IEnumerator fadeNPC() {
         npcImage = npc.GetComponent<SpriteRenderer>();
-        npcImage.color = Color.yellow;
-        yield return new WaitForSeconds(1.0f);
-        Color tmp = npcImage.GetComponent<SpriteRenderer>().color;     
-        tmp.a = 0.25f;
+        npcImage.color = Color.grey;
+        Color tmp = npcImage.GetComponent<SpriteRenderer>().color;
+        tmp.a = 0.5f;
         npcImage.GetComponent<SpriteRenderer>().color = tmp;
         yield return new WaitForSeconds(1.0f);
         Destroy(npc);

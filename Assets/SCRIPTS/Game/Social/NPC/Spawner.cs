@@ -47,21 +47,20 @@ public class Spawner : MonoBehaviour
         while (stopSpawn == false) {
         
             spawnWait = Random.Range(1, 4);
-            startWait = Random.Range(1, 2);
-            mobWait = Random.Range(1, 2);
+            startWait = Random.Range(1, 4);
+            mobWait = Random.Range(1, 4);
 
             for (int i = 0; i < 1; i++) {
                 spawnValues = waypoints[Random.Range(0, waypoints.Count)].localPosition;
                 Vector2 spawnPos = new Vector2(spawnValues.x, spawnValues.y);
-                print("" + "++++//~~~~~~~~~~~~ SPAWN POS: " + spawnPos + "");
-
+              
                 Quaternion spawnRotation = Quaternion.identity;
                 GameObject newItem = Instantiate(NPCObject, spawnPos, spawnRotation);
                 newItem.transform.SetParent(MapPanel.transform);
                 yield return new WaitForSeconds(spawnWait);
             }
             yield return new WaitForSeconds(mobWait);
-            stopSpawn = true;
+            //stopSpawn = true;
         }
     }
 
