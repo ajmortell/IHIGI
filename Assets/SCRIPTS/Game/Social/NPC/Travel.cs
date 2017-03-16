@@ -7,9 +7,7 @@ using System.Collections.Generic;
 public class Travel : MonoBehaviour
 {
     private List<Transform> waypoints;
-    private List<Transform> previousWaypoints;
     private Transform waypoint;
-
     private float speed;
     
     #region AWAKE
@@ -18,7 +16,6 @@ public class Travel : MonoBehaviour
         speed = Random.Range(1.0f, 5.0f);
         waypoint = null;
         waypoints = new List<Transform>();
-        previousWaypoints = new List<Transform>();
         GatherWaypoints();
     }
     
@@ -42,20 +39,17 @@ public class Travel : MonoBehaviour
     Transform GetNearestWaypoint() {
         
         Transform bestTarget = null;
-        float closestDistanceSqr = Mathf.Infinity;// //
-        Vector3 currentPosition = transform.position;
-        
+        float closestDistanceSqr = Mathf.Infinity;
+        Vector3 currentPosition = transform.position;   
         foreach (Transform potentialTarget in waypoints) {
             Vector3 directionToTarget = potentialTarget.position - currentPosition;
-            float dSqrToTarget = directionToTarget.sqrMagnitude;// /
+            float dSqrToTarget = directionToTarget.sqrMagnitude;
             if (dSqrToTarget < closestDistanceSqr) {
                 closestDistanceSqr = dSqrToTarget;
                 bestTarget = potentialTarget;
                 
             }
         }
-        //print("CLOSEST WAYPOINT TO NPC: " + bestTarget);
-        previousWaypoints.Add(bestTarget);
         waypoints.Remove(bestTarget);
         return bestTarget;
 
@@ -74,7 +68,6 @@ public class Travel : MonoBehaviour
                 nearestTarget = potentialTarget;
             }
         }
-        //print("CLOSEST WAYPOINT TO NEAREST WAYPOINT: " + nearestTarget); 
         return nearestTarget;
     }
 
@@ -95,7 +88,6 @@ public class Travel : MonoBehaviour
     }
 
     void LateUpdate() {
-        
         GoToWaypoint();
         moveNPC();
     }

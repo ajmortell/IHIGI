@@ -6,6 +6,7 @@ using System.Collections.Generic;
 public class Spawner : MonoBehaviour
 {
     private List<Transform> waypoints;
+    private List<Transform> spawnpoints;
     private Transform waypoint;  
 
     public GameObject MapPanel;
@@ -16,7 +17,7 @@ public class Spawner : MonoBehaviour
     private float startWait;
     private float mobWait;
 
-    private List<Transform> spawnpoints;
+    
 
     // STARTUP
     private void Awake() {

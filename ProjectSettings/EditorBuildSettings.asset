@@ -8,16 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SCENES/Title/Title.unity
   - enabled: 1
-    path: Assets/SCENES/Game/MainScene.unity
+    path: Assets/SCENES/Game/DeskScene/MainScene.unity
   - enabled: 1
-    path: Assets/SCENES/Game/ComputerScene.unity
+    path: Assets/SCENES/Game/ComputerScene/ComputerScene.unity
   - enabled: 1
-    path: Assets/SCENES/Game/MailScene.unity
+    path: Assets/SCENES/Game/MailScene/MailScene.unity
   - enabled: 1
-    path: Assets/SCENES/Game/ResumeScene.unity
+    path: Assets/SCENES/Game/ResumeScene/ResumeScene.unity
   - enabled: 1
-    path: Assets/SCENES/Game/SocialMapScene.unity
+    path: Assets/SCENES/Game/SocialScene/SocialMapScene.unity
   - enabled: 1
-    path: Assets/SCENES/Game/CellInroScene.unity
+    path: Assets/SCENES/Game/CellScene/CellInroScene.unity
   - enabled: 1
-    path: Assets/SCENES/Game/CellScene.unity
+    path: Assets/SCENES/Game/CellScene/CellScene.unity
+  - enabled: 1
+    path: Assets/SCENES/Game/CellScene/CalendarScene/CalendarScene.unity

@@ -20,6 +20,8 @@ TagManager:
   - Map
   - Waypoint
   - npc
+  - MessagesPanel
+  - StartMenuPanel
   layers:
   - Default
   - TransparentFX

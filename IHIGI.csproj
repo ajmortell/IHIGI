@@ -87,6 +87,7 @@
     <Compile Include="Assets\SCRIPTS\Game\AnimCtrlr.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Conditional.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Desk\Cell.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\OpenMessagesPanel.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Desk\Computer.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Desk\Computer\Mail\Checkbox.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Desk\Computer\Mail\DeleteSelected.cs" />
@@ -104,7 +105,7 @@
     <Compile Include="Assets\SCRIPTS\Game\Desk\Computer\Mail\SelectAll.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Desk\Computer\Mail\SelectAllBtn.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Desk\LeftDrawer.cs" />
-    <Compile Include="Assets\SCRIPTS\Game\Desk\OpenPanel.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Desk\OpenStartPanel.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Desk\Outside.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Desk\RightDrawer.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Employee\Employee.cs" />
