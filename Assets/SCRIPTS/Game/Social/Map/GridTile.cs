@@ -5,43 +5,57 @@ using UnityEngine.UI;
 
 public class GridTile : MonoBehaviour {
 
-    private float width;
-    private float height;
-    private int tileId;
+    private float tileWidth;
+    private float tileHeight;
+    private RectTransform tileSize;
 
+    private bool tileClicked;
+    
     public GameObject self = null;
 
-    private Image tileImage;
-
-    private NPC npc;
-    private List<GameObject> npcsInArea;
-
-    private GameObject map;
-    private float mapX;
-    private float mapY;
-    private RectTransform mapSize;
+    private Animator anim;
+    private SpriteRenderer scannerSprite;
 
     void Awake () {
+        tileClicked = false;
+
         self = gameObject;
-        map = GameObject.FindGameObjectWithTag("Map");
-        mapSize = map.GetComponent<RectTransform>();
-        Vector2 size = mapSize.rect.size;
-        //print("MAP SIZE: " + size + " NAME: " + map.name);
 
-        tileImage = self.GetComponent<Image>();
-        tileImage.color = Color.clear;
+        scannerSprite = self.GetComponentInChildren<SpriteRenderer>();
+        scannerSprite.material.color = Color.clear;
+        anim = scannerSprite.GetComponent<Animator>();
+        
+        tileSize = self.GetComponent<RectTransform>();
+
+        Vector2 size = tileSize.rect.size;
+
+        tileWidth = size.x;
+        tileHeight = size.y;
     }
 
-    IEnumerator Fader() {
-        tileImage.color = Color.magenta;
-        tileImage.CrossFadeAlpha(0, 0.5f, false);
+    IEnumerator AnimateScanner() {
+        
+        scannerSprite.material.color = Color.cyan;
         yield return new WaitForSeconds(0.5f);
-        tileImage.CrossFadeAlpha(1, 0.5f, false);
+    }
+	
+    public void OnClick() {
+        tileClicked = true;
+        Vector2 size = tileSize.rect.size;
+        print("TILE WIDTH: " + tileWidth + " TILE HEIGHT: " + tileHeight + " TOTAL SIZE: " + size);
+        anim.SetBool("scanON", true);
+        StartCoroutine(AnimateScanner());
+    }
 
+    void Update() {
+
+        if (tileClicked == true) {
+            tileClicked = false;
+            print("tile clicked");
+            GameObject managerobj = GameObject.FindGameObjectWithTag("Map");
+            GridManager manager = managerobj.GetComponent<GridManager>();
+            manager.OnGridManager();
+        }
     }
-	
-    public void OnClick() { 
-        StartCoroutine(Fader());
-    }
-	
+
 }

@@ -52,9 +52,6 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -69,9 +66,6 @@
     </Reference>
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VR">
       <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
@@ -119,6 +113,7 @@
     <Compile Include="Assets\SCRIPTS\Game\Employee\Skills.cs" />
     <Compile Include="Assets\SCRIPTS\Game\GameTimer.cs" />
     <Compile Include="Assets\SCRIPTS\Game\LoadScene.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Social\Map\GridManager.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Social\Map\GridTile.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Social\Map\Marquee.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Social\Map\SelectArea.cs" />
@@ -127,8 +122,6 @@
     <Compile Include="Assets\SCRIPTS\Game\Social\Map\WaypointManager.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Social\NPC\NPC.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Social\NPC\NPCController.cs" />
-    <Compile Include="Assets\SCRIPTS\Game\Social\NPC\NPCSpawner.cs" />
-    <Compile Include="Assets\SCRIPTS\Game\Social\NPC\NPCTravel.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Social\NPC\Spawner.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Social\NPC\Travel.cs" />
   </ItemGroup>
