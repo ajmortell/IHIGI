@@ -16,14 +16,12 @@ public class GridManager : MonoBehaviour {
         map = GameObject.FindGameObjectWithTag("Map");
         mapSize = map.GetComponent<RectTransform>();
         Vector2 size = mapSize.rect.size;
-        print("MAP SIZE: " + size + " NAME: " + map.name);
+        //print("MAP SIZE: " + size + " NAME: " + map.name);
     }
 
     public void OnGridManager() {
         print("....... OnGridManager ........");
-
-
-    }4
+    }
 	
 	// Update is called once per frame
 	void Update () {

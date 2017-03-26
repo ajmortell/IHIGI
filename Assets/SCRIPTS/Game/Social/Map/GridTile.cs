@@ -42,7 +42,7 @@ public class GridTile : MonoBehaviour {
     public void OnClick() {
         tileClicked = true;
         Vector2 size = tileSize.rect.size;
-        print("TILE WIDTH: " + tileWidth + " TILE HEIGHT: " + tileHeight + " TOTAL SIZE: " + size);
+        //print("TILE WIDTH: " + tileWidth + " TILE HEIGHT: " + tileHeight + " TOTAL SIZE: " + size);
         anim.SetBool("scanON", true);
         StartCoroutine(AnimateScanner());
     }
