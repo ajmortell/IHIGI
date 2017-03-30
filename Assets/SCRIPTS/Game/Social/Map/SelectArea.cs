@@ -9,12 +9,12 @@ public class SelectArea : MonoBehaviour {
     private void OnSelected()
     {
         isSelected = true;
-        //renderer.material.color = Color.red;
+        
     }
 
     private void OnUnselected()
     {
         isSelected = false;
-        //renderer.material.color = Color.white;
+        
     }
 }

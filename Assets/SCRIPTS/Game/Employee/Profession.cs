@@ -2,49 +2,49 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///  this is the type of basic profession classes the user can be
+
 public class Profession : MonoBehaviour {
 
     public enum ProfessionType
     {
-        UNEMPLOYED = 0,
-        ACCOUNTING,
-        ACTING,
-        ARCHITECT,
-        BUSINESS,
-        EDUCATION,
-        ENGINEERING,
-        ENTERTAINMENT,
-        GOVERNMENT,
-        LANGUAGE,
-        LAW,
-        MARKETING,
-        MEDICAL,
-        MUSIC,
-        NEWS,
-        SALES,
-        SCIENCE,
-        SERVICE,
-        SOFTWARE,
+        UNEMPLOYED =0,
+        ACADEMICS =1,
+        ARTS =2,
+        BUSINESS =4,
+        INDUSTRY =5,
+        MEDICAL =6,
+        POLITICS =7,
+        SCIENCE =8,
+        SERVICE =9,
     };
 
-    public int accounting = 0;
-    public int acting = 0;
-    public int architect = 0;
+    public enum ProfessionSubType
+    {
+        ACCOUNTING,//INDUSTRY
+        BUILDING,//INDUSTRY
+        EDUCATION,//SERVICE
+        ENGINEERING,//SCIENCE
+        ENTERTAINMENT,//ARTS
+        GOVERNMENT,//SERVICE/POLITICS
+        LANGUAGE,//ACADEMICS
+        LAW,// SERVICE
+        MARKETING,// BUSINESS
+        MUSIC,// ARTS
+        NEWS,// ARTS/SERVICE
+        SALES,// INDUSTRY/BUSINESS
+        SOFTWARE,// SCIENCE
+    };
+
+
+    public int academics = 0;
+    public int arts = 0;
     public int business = 0;
-    public int education = 0;
-    public int engineering = 0;
-    public int entertainment = 0;
-    public int government = 0;
-    public int language = 0;
-    public int law = 0;
-    public int marketing = 0;
+    public int industry = 0;
     public int medical = 0;
-    public int music = 0;
-    public int news = 0;
-    public int sales = 0;
+    public int politics = 0;
     public int science = 0;
     public int service = 0;
-    public int software = 0;
 
     void Awake() {
 

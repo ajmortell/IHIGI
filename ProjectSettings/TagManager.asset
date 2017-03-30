@@ -22,6 +22,8 @@ TagManager:
   - npc
   - MessagesPanel
   - StartMenuPanel
+  - GridTile
+  - scanner
   layers:
   - Default
   - TransparentFX

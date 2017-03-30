@@ -1891,6 +1891,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1782426034931120, guid: d09e32e1076919647b7c4536df6f2a33, type: 2}
+      propertyPath: m_TagString
+      value: GridTile
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d09e32e1076919647b7c4536df6f2a33, type: 2}
   m_IsPrefabParent: 0

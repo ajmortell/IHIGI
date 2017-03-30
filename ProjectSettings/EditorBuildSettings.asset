@@ -25,3 +25,5 @@ EditorBuildSettings:
     path: Assets/SCENES/Game/CellScene/CalendarScene/CalendarScene.unity
   - enabled: 1
     path: Assets/SCENES/Game/MailScene/MailScene_Cell.unity
+  - enabled: 1
+    path: Assets/SCENES/Cut/IntroScene_01.unity

@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Skills : MonoBehaviour {
+public class Skill : MonoBehaviour {
+
+
 
     public int writing = 0;
     public int drawing = 0;
@@ -90,8 +92,15 @@ public class Skills : MonoBehaviour {
     public int teaching = 0;
     public int tracking = 0;
 
-    int[] skillValues;
-    string[] skillsList;
+    List<int> skillsList;
+
+    public void increaseStat(int amt) {
+
+    }
+
+    public void decreaseStat(int amt) {
+
+    }
 
     void Awake() {
 

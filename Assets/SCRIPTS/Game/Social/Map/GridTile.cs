@@ -3,48 +3,39 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//// Rewind 2
+
 public class GridTile : MonoBehaviour {
 
+    private Transform tileTransform;
     private float tileWidth;
     private float tileHeight;
     private RectTransform tileSize;
-
+    private Scanner scanner;
     private bool tileClicked;
     
     public GameObject self = null;
 
-    private Animator anim;
-    private SpriteRenderer scannerSprite;
-
     void Awake () {
         tileClicked = false;
-
+        tileTransform = transform;
         self = gameObject;
-
-        scannerSprite = self.GetComponentInChildren<SpriteRenderer>();
-        scannerSprite.material.color = Color.clear;
-        anim = scannerSprite.GetComponent<Animator>();
-        
         tileSize = self.GetComponent<RectTransform>();
-
         Vector2 size = tileSize.rect.size;
-
         tileWidth = size.x;
         tileHeight = size.y;
+       scanner = gameObject.GetComponent<Scanner>();
     }
 
-    IEnumerator AnimateScanner() {
-        
-        scannerSprite.material.color = Color.cyan;
-        yield return new WaitForSeconds(0.5f);
+    public Transform getTileTransform() {
+
+        return tileTransform;
     }
-	
+ 
     public void OnClick() {
         tileClicked = true;
-        Vector2 size = tileSize.rect.size;
-        //print("TILE WIDTH: " + tileWidth + " TILE HEIGHT: " + tileHeight + " TOTAL SIZE: " + size);
-        anim.SetBool("scanON", true);
-        StartCoroutine(AnimateScanner());
+        
+        scanner.OnScan();
     }
 
     void Update() {
@@ -52,9 +43,6 @@ public class GridTile : MonoBehaviour {
         if (tileClicked == true) {
             tileClicked = false;
             print("tile clicked");
-            GameObject managerobj = GameObject.FindGameObjectWithTag("Map");
-            GridManager manager = managerobj.GetComponent<GridManager>();
-            manager.OnGridManager();
         }
     }
 

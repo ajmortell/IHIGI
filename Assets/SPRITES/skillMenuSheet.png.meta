@@ -1,33 +1,27 @@
 fileFormatVersion: 2
-guid: e17155740d5de3c47a9b0501aa8efbe8
-timeCreated: 1490597338
+guid: 3cad6b2cdc3e6134cae182b32500fd0d
+timeCreated: 1490820978
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: introSceneSheet_001_0
-    21300002: introSceneSheet_001_1
-    21300004: sunCityBG_02
-    21300006: sunCityBG_01
-    21300008: letterBox
-    21300010: truck1
-    21300012: truck2
-    21300014: car_Lincoln
-    21300016: car_blkGeo
-    21300018: car_benz
-    21300020: car_redGeo
-    21300022: skipBtn1
-    21300024: nextBtn2
-    21300026: skipBtnSel1
-    21300028: skipBtnPressed1
-    21300030: nextBtnPressed1
-    21300032: nextBtnSel1
-    21300034: truck3
-    21300036: truck4
-    21300038: car5
-    21300040: car7
-    21300042: car8
-    21300044: car6
-    21300046: towTruck
+    21300000: skillMenuBG
+    21300002: closeMenuBtn_01
+    21300004: closeMenuBtn_02
+    21300006: skillBtn_A
+    21300008: skillBtn_B
+    21300010: skillBtn_C
+    21300012: skillBtn_D
+    21300014: skillBtn_E
+    21300016: skillBtnDisabled_E
+    21300018: skillBtnDisabled_A
+    21300020: skillBtnDisabled_B
+    21300022: skillBtnDisabled_C
+    21300024: skillBtnDisabled_D
+    21300026: skillBtnPressed_A
+    21300028: skillBtnPressed_B
+    21300030: skillBtnPressed_C
+    21300032: skillBtnPressed_D
+    21300034: skillBtnPressed_E
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -85,7 +79,7 @@ TextureImporter:
   - buildTarget: Standalone
     maxTextureSize: 2048
     textureFormat: 4
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,63 +104,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: introSceneSheet_001_0
+      name: skillMenuBG
       rect:
         serializedVersion: 2
         x: 0
-        y: 152
-        width: 128
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: introSceneSheet_001_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 218
-        width: 128
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sunCityBG_02
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 284
-        width: 128
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sunCityBG_01
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 350
-        width: 128
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: letterBox
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 416
+        y: 32
         width: 128
         height: 96
       alignment: 0
@@ -175,90 +117,12 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: truck1
+      name: closeMenuBtn_01
       rect:
         serializedVersion: 2
-        x: 131
-        y: 481
-        width: 73
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: truck2
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 448
-        width: 73
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: car_Lincoln
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 426
-        width: 63
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: car_blkGeo
-      rect:
-        serializedVersion: 2
-        x: 198
-        y: 424
-        width: 53
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: car_benz
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 402
-        width: 56
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: car_redGeo
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 376
-        width: 53
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: skipBtn1
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 363
-        width: 23
+        x: 0
+        y: 21
+        width: 9
         height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -266,12 +130,12 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: nextBtn2
+      name: closeMenuBtn_02
       rect:
         serializedVersion: 2
-        x: 157
-        y: 363
-        width: 27
+        x: 11
+        y: 21
+        width: 9
         height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -279,12 +143,12 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: skipBtnSel1
+      name: skillBtn_A
       rect:
         serializedVersion: 2
         x: 131
-        y: 351
-        width: 23
+        y: 118
+        width: 33
         height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -292,12 +156,12 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: skipBtnPressed1
+      name: skillBtn_B
       rect:
         serializedVersion: 2
         x: 131
-        y: 339
-        width: 23
+        y: 108
+        width: 33
         height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -305,12 +169,12 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: nextBtnPressed1
+      name: skillBtn_C
       rect:
         serializedVersion: 2
-        x: 157
-        y: 339
-        width: 27
+        x: 131
+        y: 98
+        width: 33
         height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -318,12 +182,12 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: nextBtnSel1
+      name: skillBtn_D
       rect:
         serializedVersion: 2
-        x: 157
-        y: 351
-        width: 27
+        x: 131
+        y: 88
+        width: 33
         height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -331,91 +195,143 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: truck3
+      name: skillBtn_E
       rect:
         serializedVersion: 2
         x: 131
-        y: 304
-        width: 73
-        height: 29
+        y: 78
+        width: 33
+        height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: truck4
+      name: skillBtnDisabled_E
       rect:
         serializedVersion: 2
-        x: 131
-        y: 271
-        width: 73
-        height: 29
+        x: 168
+        y: 78
+        width: 33
+        height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: car5
+      name: skillBtnDisabled_A
       rect:
         serializedVersion: 2
-        x: 131
-        y: 249
-        width: 63
-        height: 19
+        x: 168
+        y: 118
+        width: 33
+        height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: car7
+      name: skillBtnDisabled_B
       rect:
         serializedVersion: 2
-        x: 131
-        y: 225
-        width: 56
-        height: 19
+        x: 168
+        y: 108
+        width: 33
+        height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: car8
+      name: skillBtnDisabled_C
       rect:
         serializedVersion: 2
-        x: 131
-        y: 199
-        width: 53
-        height: 21
+        x: 168
+        y: 98
+        width: 33
+        height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: car6
+      name: skillBtnDisabled_D
       rect:
         serializedVersion: 2
-        x: 198
-        y: 247
-        width: 53
-        height: 21
+        x: 168
+        y: 88
+        width: 33
+        height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: towTruck
+      name: skillBtnPressed_A
       rect:
         serializedVersion: 2
-        x: 131
-        y: 154
-        width: 74
-        height: 37
+        x: 205
+        y: 118
+        width: 33
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: skillBtnPressed_B
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 108
+        width: 33
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: skillBtnPressed_C
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 98
+        width: 33
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: skillBtnPressed_D
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 88
+        width: 33
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: skillBtnPressed_E
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 78
+        width: 33
+        height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
