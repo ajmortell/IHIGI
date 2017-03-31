@@ -15,6 +15,8 @@ public class NPC : MonoBehaviour {
     private float npcFocus;
     private float npcEnergy;
 
+    public bool isNPCVisible;
+
     private void Awake () {
         //npc = GetComponent<GameObject>();
         npc = gameObject;

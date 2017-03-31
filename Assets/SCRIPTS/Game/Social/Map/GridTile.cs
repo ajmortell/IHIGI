@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-//// Rewind 2
-
 public class GridTile : MonoBehaviour {
 
     private Transform tileTransform;
@@ -24,18 +22,17 @@ public class GridTile : MonoBehaviour {
         Vector2 size = tileSize.rect.size;
         tileWidth = size.x;
         tileHeight = size.y;
-       scanner = gameObject.GetComponent<Scanner>();
+        scanner = gameObject.GetComponentInChildren<Scanner>();
     }
 
     public Transform getTileTransform() {
-
         return tileTransform;
     }
  
     public void OnClick() {
         tileClicked = true;
         
-        scanner.OnScan();
+        scanner.OnScan(tileTransform, tileSize.rect.size);
     }
 
     void Update() {

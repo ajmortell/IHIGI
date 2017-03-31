@@ -89,7 +89,14 @@
     <Compile Include="Assets\SCRIPTS\Game\AnimCtrlr.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Conditional.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Desk\Cell.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\OpenBrowserPanel.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\OpenCalendarPanel.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\OpenContactsPanel.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\OpenEmailPanel.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\OpenMessagesPanel.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\OpenMusicPanel.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\OpenPhonePanel.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\OpenSocialPanel.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Desk\Computer.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Desk\Computer\Mail\Checkbox.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Desk\Computer\Mail\DeleteSelected.cs" />

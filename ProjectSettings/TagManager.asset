@@ -24,6 +24,13 @@ TagManager:
   - StartMenuPanel
   - GridTile
   - scanner
+  - ContactsPanel
+  - CalendarPanel
+  - PhonePanel
+  - EmailPanel
+  - MusicPanel
+  - SocialPanel
+  - BrowserPanel
   layers:
   - Default
   - TransparentFX

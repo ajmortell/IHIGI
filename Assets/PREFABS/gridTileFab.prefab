@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4038791505691020}
   - component: {fileID: 212817264927014022}
   - component: {fileID: 95944331352084570}
+  - component: {fileID: 114262509910312660}
   m_Layer: 5
   m_Name: Scanner
   m_TagString: scanner
@@ -40,7 +41,6 @@ GameObject:
   - component: {fileID: 114023899368393252}
   - component: {fileID: 114270751644527930}
   - component: {fileID: 114449147882310642}
-  - component: {fileID: 114760036088924742}
   m_Layer: 5
   m_Name: gridTileFab
   m_TagString: GridTile
@@ -105,6 +105,18 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114262509910312660
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1762629364155336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66aa7480f07b63541beee0392b54ce99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  self: {fileID: 1762629364155336}
 --- !u!114 &114270751644527930
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -147,18 +159,6 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
---- !u!114 &114760036088924742
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1782426034931120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66aa7480f07b63541beee0392b54ce99, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  self: {fileID: 1762629364155336}
 --- !u!212 &212817264927014022
 SpriteRenderer:
   m_ObjectHideFlags: 1
