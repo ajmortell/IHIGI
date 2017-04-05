@@ -19,7 +19,7 @@ public class OpenSocialPanel : MonoBehaviour {
     {
         if (canOpen == true)
         {
-            Debug.Log(Name + " Opened");
+            //Debug.Log(Name + " Opened");
             isOpen = true;
             canOpen = false;
             panel.SetActive(true);
@@ -28,7 +28,7 @@ public class OpenSocialPanel : MonoBehaviour {
         else
         {
 
-            Debug.Log(Name + " Closed");
+            //Debug.Log(Name + " Closed");
             isOpen = false;
             canOpen = true;
             panel.SetActive(false);

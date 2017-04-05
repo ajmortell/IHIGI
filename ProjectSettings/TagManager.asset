@@ -31,6 +31,21 @@ TagManager:
   - MusicPanel
   - SocialPanel
   - BrowserPanel
+  - SocialOptionsPanel
+  - MySelfPanel
+  - FriendsPanel
+  - FindFriendsPanel
+  - FeedPanel
+  - SocialSection
+  - SocialOptionsBtn
+  - SocialBackBtn
+  - MySelfBtn
+  - FriendsBtn
+  - FindFriendsBtn
+  - SocialBtn
+  - EditPanel
+  - EditBtn
+  - FeedBtn
   layers:
   - Default
   - TransparentFX

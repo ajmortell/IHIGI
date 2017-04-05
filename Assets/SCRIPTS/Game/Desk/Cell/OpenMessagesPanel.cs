@@ -18,7 +18,7 @@ public class OpenMessagesPanel : MonoBehaviour {
     {
         if (canOpen == true)
         {
-            Debug.Log(Name +" Opened");
+            Debug.Log(Name + " Opened");
             isOpen = true;
             canOpen = false;
             panel.SetActive(true);
