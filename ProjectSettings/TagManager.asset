@@ -46,6 +46,7 @@ TagManager:
   - EditPanel
   - EditBtn
   - FeedBtn
+  - FriendItemFab
   layers:
   - Default
   - TransparentFX

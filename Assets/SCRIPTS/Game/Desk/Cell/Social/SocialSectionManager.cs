@@ -97,7 +97,11 @@ public class SocialSectionManager : MonoBehaviour {
     void socialBackBtnAction() {
         Debug.Log("socialBackBtn pressed :  ");
         isSocialOptionsPanelOpen = false;
-        
+        mySelfPanel.SetActive(false);
+        friendsPanel.SetActive(false);
+        findPanel.SetActive(false);
+        feedPanel.SetActive(true);
+        editPanel.SetActive(false);
     }
 
     void mySelfBtnAction() {

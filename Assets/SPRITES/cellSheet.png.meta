@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 0c58a1c2d98be044aa71484240f07883
-timeCreated: 1488742941
+timeCreated: 1491462698
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -22,6 +22,8 @@ TextureImporter:
     21300030: msgTopBar
     21300032: msgWindow
     21300034: msgLowerBar
+    21300036: cellCloseBtn_01
+    21300038: cellCloseBtn_02
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -332,6 +334,32 @@ TextureImporter:
         y: 135
         width: 86
         height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cellCloseBtn_01
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 87
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cellCloseBtn_02
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 87
+        width: 4
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
