@@ -96,6 +96,8 @@
     <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\OpenMessagesPanel.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\OpenMusicPanel.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\OpenPhonePanel.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\Social\Feed\FeedItem.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\Social\Feed\FeedItemController.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\Social\Friends\FriendItem.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\Social\Friends\FriendItemController.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\Social\Friends\FriendsSectionManager.cs" />

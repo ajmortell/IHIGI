@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 2e65c7b0b964cd348ae6fb2464c2755e
-timeCreated: 1491461024
+timeCreated: 1491575738
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -23,6 +23,8 @@ TextureImporter:
     21300032: mySelfLbl_Blue
     21300034: mySelfLbl
     21300036: findBtn
+    21300038: postFeedLbl
+    21300040: newsLbl
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -346,6 +348,32 @@ TextureImporter:
         y: 62
         width: 52
         height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: postFeedLbl
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 40
+        width: 42
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsLbl
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 6
+        width: 21
+        height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
