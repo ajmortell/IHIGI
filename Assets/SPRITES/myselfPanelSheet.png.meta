@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: b5a515a9ddbd52342ad68e681bfb5fee
-timeCreated: 1491066015
+timeCreated: 1491675443
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -20,6 +20,24 @@ TextureImporter:
     21300026: feedBtn2
     21300028: postBtn3
     21300030: postBtn2
+    21300032: changePhotoBtn
+    21300034: changeCoverPhotoBtn_02
+    21300036: changeColorsBtn_02
+    21300038: exitBtn_02
+    21300040: exitBtn_01
+    21300042: changePhotoBtn_01
+    21300044: changeCoverPhotoBtn_01
+    21300046: changeColorsBtn_01
+    21300048: likesLblWhite
+    21300050: likesLblBlue
+    21300052: commentsLblWhite
+    21300054: commentsLblBlue
+    21300056: commentsBtn_01
+    21300058: commentsBtn_02
+    21300060: likeBtn_01
+    21300062: likeBtn_02
+    21300064: shareBtn_01
+    21300066: shareBtn_02
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -304,6 +322,240 @@ TextureImporter:
         y: 67
         width: 44
         height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: changePhotoBtn
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 26
+        width: 59
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: changeCoverPhotoBtn_02
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 17
+        width: 86
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: changeColorsBtn_02
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 8
+        width: 62
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exitBtn_02
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 63
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: exitBtn_01
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 79
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: changePhotoBtn_01
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 26
+        width: 59
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: changeCoverPhotoBtn_01
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 17
+        width: 86
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: changeColorsBtn_01
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 8
+        width: 62
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: likesLblWhite
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 246
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: likesLblBlue
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 237
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commentsLblWhite
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 246
+        width: 44
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commentsLblBlue
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 237
+        width: 44
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commentsBtn_01
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 221
+        width: 50
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commentsBtn_02
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 210
+        width: 50
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: likeBtn_01
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 199
+        width: 50
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: likeBtn_02
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 188
+        width: 50
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shareBtn_01
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 177
+        width: 50
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: shareBtn_02
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 166
+        width: 50
+        height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

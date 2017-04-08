@@ -29,6 +29,7 @@ public class SocialSectionManager : MonoBehaviour {
     private Button findBtn;
     private Button feedBtn;
     private Button editBtn;
+    private Button exitBtn;
 
     private GameObject socialOptionsObj;
     private GameObject socialBackObj;
@@ -37,6 +38,7 @@ public class SocialSectionManager : MonoBehaviour {
     private GameObject findObj;
     private GameObject feedObj;
     private GameObject editObj;
+    private GameObject exitObj;
 
     void Awake() {
 
@@ -58,6 +60,7 @@ public class SocialSectionManager : MonoBehaviour {
         findObj = GameObject.FindGameObjectWithTag("FindFriendsBtn");
         feedObj = GameObject.FindGameObjectWithTag("FeedBtn");
         editObj = GameObject.FindGameObjectWithTag("EditBtn");
+        exitObj = GameObject.FindGameObjectWithTag("ExitEditBtn");
 
         socialOptionsBtn = socialOptionsObj.GetComponent<Button>();
         socialBackBtn = socialBackObj.GetComponent<Button>();
@@ -66,6 +69,7 @@ public class SocialSectionManager : MonoBehaviour {
         findBtn = findObj.GetComponent<Button>();
         feedBtn = feedObj.GetComponent<Button>();
         editBtn = editObj.GetComponent<Button>();
+        exitBtn = exitObj.GetComponent<Button>();
 
         socialOptionsBtn.onClick.AddListener(() => socialOptionsBtnAction());
         socialBackBtn.onClick.AddListener(() => socialBackBtnAction());
@@ -74,6 +78,7 @@ public class SocialSectionManager : MonoBehaviour {
         findBtn.onClick.AddListener(() => findBtnAction());
         feedBtn.onClick.AddListener(() => feedBtnAction());
         editBtn.onClick.AddListener(() => editBtnAction());
+        exitBtn.onClick.AddListener(() => exitBtnAction());
 
         socialOptionsPanel.SetActive(false);
         mySelfPanel.SetActive(false);
@@ -149,6 +154,17 @@ public class SocialSectionManager : MonoBehaviour {
         isSocialOptionsPanelOpen = false;
         editPanel.SetActive(true);
         mySelfPanel.SetActive(false);
+        friendsPanel.SetActive(false);
+        findPanel.SetActive(false);
+        feedPanel.SetActive(false);
+    }
+
+    void exitBtnAction()
+    {
+        Debug.Log("Button pressed :  ");
+        isSocialOptionsPanelOpen = false;
+        editPanel.SetActive(false);
+        mySelfPanel.SetActive(true);
         friendsPanel.SetActive(false);
         findPanel.SetActive(false);
         feedPanel.SetActive(false);
