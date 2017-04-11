@@ -53,6 +53,16 @@ TagManager:
   - CoverPhoto
   - ActionBar
   - UserPhoto
+  - PostWindowPanel
+  - PostBtn
+  - DiscardBtn
+  - DoneBtn
+  - AlphabetItemFab
+  - ContactsItemFab
+  - ContactsListPanel
+  - LetterBtn
+  - AlphabetListlPanel
+  - Letter
   layers:
   - Default
   - TransparentFX

@@ -16,6 +16,7 @@ public class SocialSectionManager : MonoBehaviour {
     private GameObject findPanel;
     private GameObject feedPanel;
     private GameObject editPanel;
+    private GameObject postWindowPanel;
 
     GameObject currentSection;
     GameObject previousSection;
@@ -30,6 +31,9 @@ public class SocialSectionManager : MonoBehaviour {
     private Button feedBtn;
     private Button editBtn;
     private Button exitBtn;
+    private Button postBtn;
+    private Button discardBtn;
+    private Button doneBtn;
 
     private GameObject socialOptionsObj;
     private GameObject socialBackObj;
@@ -39,6 +43,9 @@ public class SocialSectionManager : MonoBehaviour {
     private GameObject feedObj;
     private GameObject editObj;
     private GameObject exitObj;
+    private GameObject postObj;
+    private GameObject discardObj;
+    private GameObject doneObj;
 
     void Awake() {
 
@@ -49,6 +56,7 @@ public class SocialSectionManager : MonoBehaviour {
         findPanel = GameObject.FindGameObjectWithTag("FindFriendsPanel");
         feedPanel = GameObject.FindGameObjectWithTag("FeedPanel");
         editPanel = GameObject.FindGameObjectWithTag("EditPanel");
+        postWindowPanel = GameObject.FindGameObjectWithTag("PostWindowPanel");
 
         isSocialOptionsPanelOpen = false;
         canOpenSocialOptionsPanel = true;
@@ -61,6 +69,9 @@ public class SocialSectionManager : MonoBehaviour {
         feedObj = GameObject.FindGameObjectWithTag("FeedBtn");
         editObj = GameObject.FindGameObjectWithTag("EditBtn");
         exitObj = GameObject.FindGameObjectWithTag("ExitEditBtn");
+        postObj = GameObject.FindGameObjectWithTag("PostBtn");
+        discardObj = GameObject.FindGameObjectWithTag("DiscardBtn");
+        doneObj = GameObject.FindGameObjectWithTag("DoneBtn");
 
         socialOptionsBtn = socialOptionsObj.GetComponent<Button>();
         socialBackBtn = socialBackObj.GetComponent<Button>();
@@ -70,6 +81,10 @@ public class SocialSectionManager : MonoBehaviour {
         feedBtn = feedObj.GetComponent<Button>();
         editBtn = editObj.GetComponent<Button>();
         exitBtn = exitObj.GetComponent<Button>();
+        postBtn = postObj.GetComponent<Button>();
+        discardBtn = discardObj.GetComponent<Button>();
+        doneBtn = doneObj.GetComponent<Button>();
+
 
         socialOptionsBtn.onClick.AddListener(() => socialOptionsBtnAction());
         socialBackBtn.onClick.AddListener(() => socialBackBtnAction());
@@ -79,12 +94,16 @@ public class SocialSectionManager : MonoBehaviour {
         feedBtn.onClick.AddListener(() => feedBtnAction());
         editBtn.onClick.AddListener(() => editBtnAction());
         exitBtn.onClick.AddListener(() => exitBtnAction());
+        postBtn.onClick.AddListener(() => postBtnAction());
+        discardBtn.onClick.AddListener(() => discardBtnAction());
+        doneBtn.onClick.AddListener(() => doneBtnAction());
 
         socialOptionsPanel.SetActive(false);
         mySelfPanel.SetActive(false);
         friendsPanel.SetActive(false);
         findPanel.SetActive(false);
         editPanel.SetActive(false);
+        postWindowPanel.SetActive(false);
     }
 
     void socialOptionsBtnAction() {
@@ -107,6 +126,7 @@ public class SocialSectionManager : MonoBehaviour {
         findPanel.SetActive(false);
         feedPanel.SetActive(true);
         editPanel.SetActive(false);
+        postWindowPanel.SetActive(false);
     }
 
     void mySelfBtnAction() {
@@ -117,6 +137,21 @@ public class SocialSectionManager : MonoBehaviour {
         findPanel.SetActive(false);
         feedPanel.SetActive(false);
         editPanel.SetActive(false);
+    }
+
+    void postBtnAction() {
+        Debug.Log("postBtn pressed :  ");
+        postWindowPanel.SetActive(true);
+    }
+
+    void doneBtnAction() {
+        Debug.Log("doneBtn pressed :  ");
+        postWindowPanel.SetActive(false);
+    }
+
+    void discardBtnAction() {
+        Debug.Log("discardBtn pressed :  ");
+        postWindowPanel.SetActive(false);
     }
 
     void friendsBtnAction() {

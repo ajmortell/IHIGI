@@ -52,9 +52,6 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -69,9 +66,6 @@
     </Reference>
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VR">
       <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
@@ -102,6 +96,15 @@
     <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\OpenMessagesPanel.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\OpenMusicPanel.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\OpenPhonePanel.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\Social\Contacts\AlphabetItem.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\Social\Contacts\AlphabetItemController.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\Social\Contacts\AlphabetSectionManager.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\Social\Contacts\ContactsItem.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\Social\Contacts\ContactsItemController.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\Social\Contacts\ContactsListPanel.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\Social\Contacts\ContactsSectionManager.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\Social\Contacts\Letter.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\Social\Contacts\LetterButton.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\Social\Edit\EditiSectionManager.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\Social\Feed\FeedItem.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Desk\Cell\Social\Feed\FeedItemController.cs" />

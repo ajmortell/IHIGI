@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: b5a515a9ddbd52342ad68e681bfb5fee
-timeCreated: 1491675443
+timeCreated: 1491685893
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -38,6 +38,10 @@ TextureImporter:
     21300062: likeBtn_02
     21300064: shareBtn_01
     21300066: shareBtn_02
+    21300068: doneBtn_01
+    21300070: doneBtn_02
+    21300072: discardBtn_01
+    21300074: discardBtn_02
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -554,6 +558,58 @@ TextureImporter:
         serializedVersion: 2
         x: 181
         y: 166
+        width: 50
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: doneBtn_01
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 154
+        width: 50
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: doneBtn_02
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 143
+        width: 50
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: discardBtn_01
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 132
+        width: 50
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: discardBtn_02
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 121
         width: 50
         height: 9
       alignment: 0
