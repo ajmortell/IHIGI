@@ -85,7 +85,6 @@ public class SocialSectionManager : MonoBehaviour {
         discardBtn = discardObj.GetComponent<Button>();
         doneBtn = doneObj.GetComponent<Button>();
 
-
         socialOptionsBtn.onClick.AddListener(() => socialOptionsBtnAction());
         socialBackBtn.onClick.AddListener(() => socialBackBtnAction());
         mySelfBtn.onClick.AddListener(() => mySelfBtnAction());
@@ -194,8 +193,7 @@ public class SocialSectionManager : MonoBehaviour {
         feedPanel.SetActive(false);
     }
 
-    void exitBtnAction()
-    {
+    void exitBtnAction() {
         Debug.Log("Button pressed :  ");
         isSocialOptionsPanelOpen = false;
         editPanel.SetActive(false);

@@ -1506,11 +1506,11 @@ RectTransform:
   m_Father: {fileID: 1982205641}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -0.019461615}
   m_SizeDelta: {x: 83, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &100490181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5957,11 +5957,11 @@ RectTransform:
   m_Father: {fileID: 1868097355}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -0.016708974}
   m_SizeDelta: {x: 84, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &526610453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10043,11 +10043,11 @@ RectTransform:
   m_Father: {fileID: 1730775055}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -0.01825408}
   m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &904421386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12803,11 +12803,11 @@ RectTransform:
   m_Father: {fileID: 1257303017}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -0.018386718}
   m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1102199264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21090,6 +21090,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 2076419923}
     m_Modifications:
+    - target: {fileID: 114345581144122582, guid: 5f9c74e8e21567f46842bda6de1d9644,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 224877697041364282, guid: 5f9c74e8e21567f46842bda6de1d9644,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -21188,7 +21193,33 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 114345581144122582, guid: 5f9c74e8e21567f46842bda6de1d9644,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114345581144122582, guid: 5f9c74e8e21567f46842bda6de1d9644,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnButtonPress
+      objectReference: {fileID: 0}
+    - target: {fileID: 114345581144122582, guid: 5f9c74e8e21567f46842bda6de1d9644,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114345581144122582, guid: 5f9c74e8e21567f46842bda6de1d9644,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114345581144122582, guid: 5f9c74e8e21567f46842bda6de1d9644,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114866368498988544, guid: 5f9c74e8e21567f46842bda6de1d9644, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 5f9c74e8e21567f46842bda6de1d9644, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1982205640

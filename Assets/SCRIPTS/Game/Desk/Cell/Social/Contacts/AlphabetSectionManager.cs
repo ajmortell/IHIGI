@@ -51,8 +51,7 @@ public class AlphabetSectionManager : MonoBehaviour {
             AlphabetItemController controller = newItem.GetComponent<AlphabetItemController>();
             controller.Letter.text = item.Letter;
             newItem.transform.SetParent(ContentPanel.transform);
-            newItem.transform.localScale = Vector3.one;
-           
+            newItem.transform.localScale = Vector3.one;         
         }
     }
 }

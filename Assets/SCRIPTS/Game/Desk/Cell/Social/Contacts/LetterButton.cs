@@ -5,18 +5,12 @@ using UnityEngine.UI;
 
 public class LetterButton : MonoBehaviour {
 
-    private GameObject letterBtn;
-
     void Awake () {
-        letterBtn = gameObject;
 	}
 	
-    public void OnButtonPress() {
-       // print("LETTER BTN PRESSED...");
+    public void OnButtonPress() {     
     }
 
-	// Update is called once per frame
-	void Update () {
-		
+	void Update () {		
 	}
 }

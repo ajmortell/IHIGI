@@ -63,6 +63,7 @@ TagManager:
   - LetterBtn
   - AlphabetListlPanel
   - Letter
+  - LetterSeperatorPanel
   layers:
   - Default
   - TransparentFX
