@@ -21090,11 +21090,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 2076419923}
     m_Modifications:
-    - target: {fileID: 114345581144122582, guid: 5f9c74e8e21567f46842bda6de1d9644,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 224877697041364282, guid: 5f9c74e8e21567f46842bda6de1d9644,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -21193,33 +21188,7 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114345581144122582, guid: 5f9c74e8e21567f46842bda6de1d9644,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114345581144122582, guid: 5f9c74e8e21567f46842bda6de1d9644,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnButtonPress
-      objectReference: {fileID: 0}
-    - target: {fileID: 114345581144122582, guid: 5f9c74e8e21567f46842bda6de1d9644,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114345581144122582, guid: 5f9c74e8e21567f46842bda6de1d9644,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 114345581144122582, guid: 5f9c74e8e21567f46842bda6de1d9644,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114866368498988544, guid: 5f9c74e8e21567f46842bda6de1d9644, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5f9c74e8e21567f46842bda6de1d9644, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1982205640

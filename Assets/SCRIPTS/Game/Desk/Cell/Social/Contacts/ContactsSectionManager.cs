@@ -9,61 +9,46 @@ public class ContactsSectionManager : MonoBehaviour {
 
     private int listCounter;
     private int tapcounter;
-    private GameObject letterSeperatorPanel;
-
-    private bool canOpenContacts;
     private bool isContactsOpen;
-    
+    private string currentLetter;
     private List<ContactsItem> contactsItems;
-    private GameObject contactsListPanel;
+    private List<GameObject> newItems;
+    public GameObject contactsListPanel;
     public GameObject ContentPanel;
     public GameObject contactsItemPrefab;
-
+    private GameObject letterSeperatorPanel;
     private GameObject letterBtnObj;
-    private Button letterBtn;    
     private GameObject letterObj;
     private Letter letter;
-    private string currentLetter;
-
+    private Button letterBtn;    
+    
     private void Awake() {
-
         listCounter = 0;
         tapcounter = 0;
-        letterSeperatorPanel = GameObject.FindGameObjectWithTag("LetterSeperatorPanel");
-        letterSeperatorPanel.SetActive(false);
-        
-        canOpenContacts = true;
         isContactsOpen = false;
-
+        letterSeperatorPanel = GameObject.FindGameObjectWithTag("LetterSeperatorPanel");
+        letterSeperatorPanel.SetActive(false);   
         contactsItems = new List<ContactsItem>();
+        newItems = new List<GameObject>();
         contactsListPanel = GameObject.FindGameObjectWithTag("ContactsListPanel");
         contactsListPanel.SetActive(false);
-
         letterBtnObj = GameObject.FindGameObjectWithTag("LetterBtn");
         letterObj = GameObject.FindGameObjectWithTag("Letter");
-        letter = letterObj.GetComponent<Letter>();    
+        letter = letterObj.GetComponent<Letter>();
         letterBtn = letterBtnObj.GetComponent<Button>();
-        letterBtn.onClick.AddListener(() => letterBtnAction(letter.returnLetter()));
-
+        letterBtn.onClick.AddListener(() => letterBtnAction(letter.returnLetter()));      
     }
 
-    public void calculateListSize(bool isOpen) {
+    public void calculateListSize() {
         int size = 0;
-        
 
-        if (isOpen == true) {
-            for (int count = listCounter; count <= listCounter; count--) {
-                if (count == 0) {
-                   // print("Count = ZERO: " + count);
-                    return;
-                }
-                size = size + 8;
-                //print("SIZE: " + size);
+        for (int count = listCounter; count <= listCounter; count--) {
+            if (count == 0) {
+                return;
             }
-        } else {
-            size = 0;
+            size = size + 8;
         }
-
+            size = 0;
     }
 
     public void addSeperatorPanel() {
@@ -71,68 +56,35 @@ public class ContactsSectionManager : MonoBehaviour {
     }
 
     void letterBtnAction(string letter) {
-        
         tapcounter++;
-        print(letter + " TAP COUNT: " + tapcounter);
-
-        if (canOpenContacts == true) {
-
-            canOpenContacts = false;
-            isContactsOpen = true;
-            contactsListPanel.SetActive(true);
-            calculateListSize(true);
-            addContacts(letter);
-
+        if (tapcounter > 1) {
+            tapcounter = 0;
+            listCounter = 0;
+            contactsListPanel.SetActive(false);
+            addContacts("0");
+            cleanUp();
         } else {
-            if (tapcounter >= 1) {
-                tapcounter = 0;
-                addContacts("0");
-                cleanUp();
-                canOpenContacts = true;
-                isContactsOpen = false;
-                contactsListPanel.SetActive(false);
-                listCounter = 0;
-            } else {
-               
-                addContacts("0");
-                cleanUp();
-                canOpenContacts = true;
-                isContactsOpen = false;
-                contactsListPanel.SetActive(false);
-                listCounter = 0;
-                contactsListPanel.SetActive(true);
-                calculateListSize(true);
-                addContacts(letter);
-            }
-        }       
-    }
-
-    public void letterBtnCloseAction() {
-
+            contactsListPanel.SetActive(true);
+            addContacts(letter);
+        }
     }
     
-    public void cleanUp() {
-        GameObject[] newItems = GameObject.FindGameObjectsWithTag("ContactsItemFab");
-        //print(" +++ CLEANUP: NEW ITEMS - COUNT: " + newItems.Length);
+    public void cleanUp() { 
         foreach (ContactsItem oldItem in contactsItems) {
-            contactsItems.Clear();
-            print(" +++ CLEANUP: CLEARED CONTACTS ITEMS - COUNT: " + contactsItems.Count);
+            contactsItems.Clear();    
         }
         foreach (GameObject fabObjects in newItems) {
-            Destroy(fabObjects);
-            print(" +++ CLEANUP: DESTROYED FAB OBJECT");
+            Destroy(fabObjects);   
         }
     }
 
     public void addContacts(string letter) {
         currentLetter = letter;
-        print("CURRENT LETTER: " + currentLetter);
         contactsItems = new List<ContactsItem>();
-        cleanUp();
-        //print(" ~~~~~~~~~ CONTACTS ITEMS COUNT: "+contactsItems.Count);
+        cleanUp();  
+              
         switch (letter) {
-            case "A":
-               
+            case "A":             
                 contactsItems.Add(new ContactsItem("Barry Alan"));
                 contactsItems.Add(new ContactsItem("Johnny Anarchy"));
                 contactsItems.Add(new ContactsItem("Samus Aran"));
@@ -182,8 +134,7 @@ public class ContactsSectionManager : MonoBehaviour {
                 print("CASE L");
                 break;
 
-            case "M":
-                
+            case "M": 
                 contactsItems.Add(new ContactsItem("Adam Mortell"));
                 contactsItems.Add(new ContactsItem("Christine Mortell"));
                 contactsItems.Add(new ContactsItem("Tony Montana"));
@@ -256,6 +207,8 @@ public class ContactsSectionManager : MonoBehaviour {
             newItem.transform.SetParent(ContentPanel.transform);
             newItem.transform.localScale = Vector3.one;
             listCounter++;
+            newItems.Add(newItem);
+
         }
     }
 
@@ -278,13 +231,9 @@ public class ContactsSectionManager : MonoBehaviour {
         addNewContact(contact);
     }
 
-    void Update() {
-     
-    }
-
     private void OnDestroy() {
         listCounter = 0;
-        letterBtn.onClick.RemoveAllListeners(); ; //AddListener(() => letterBtnAction(letter.returnLetter()));
+        letterBtn.onClick.RemoveAllListeners();
         print("DESTROYED ALPHABETT ITEM");
     }
 

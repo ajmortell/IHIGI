@@ -166,7 +166,6 @@ GameObject:
   - component: {fileID: 222028597310902602}
   - component: {fileID: 114565672930700834}
   - component: {fileID: 114345581144122582}
-  - component: {fileID: 114866368498988544}
   m_Layer: 5
   m_Name: LetterBtn
   m_TagString: LetterBtn
@@ -247,18 +246,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114565672930700834}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114866368498988544}
-        m_MethodName: OnButtonPress
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &114349153310550812
@@ -522,6 +510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b06ea18df88525740814676c28370b79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  contactsListPanel: {fileID: 1126473938464764}
   ContentPanel: {fileID: 1144289948643808}
   contactsItemPrefab: {fileID: 1315780518162964, guid: 2e675617340a53b4489424800dbfeebe,
     type: 2}
@@ -552,17 +541,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114866368498988544
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1904999597255982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f13701c4acf8314c92d8a43f8e425be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114896544924324628
 MonoBehaviour:
   m_ObjectHideFlags: 1
