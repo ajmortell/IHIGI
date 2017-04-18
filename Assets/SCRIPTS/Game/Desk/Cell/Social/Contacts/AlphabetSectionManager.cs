@@ -10,7 +10,8 @@ public class AlphabetSectionManager : MonoBehaviour {
     public GameObject ContentPanel;
     public GameObject alphabetItemPrefab;
     private List<AlphabetItem> alphabetItems;
-    
+    private int letterIndex;
+
     private void Awake() {
         addLetters();
     }

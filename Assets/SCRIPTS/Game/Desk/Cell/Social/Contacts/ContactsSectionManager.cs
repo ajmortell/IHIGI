@@ -11,14 +11,16 @@ public class ContactsSectionManager : MonoBehaviour {
     private int tapcounter;
     private bool isContactsOpen;
     private string currentLetter;
+    private int contactIndex;
     private List<ContactsItem> contactsItems;
     private List<GameObject> newItems;
+
     public GameObject contactsListPanel;
     public GameObject ContentPanel;
     public GameObject contactsItemPrefab;
-    private GameObject letterSeperatorPanel;
     private GameObject letterBtnObj;
     private GameObject letterObj;
+
     private Letter letter;
     private Button letterBtn;    
     
@@ -26,8 +28,7 @@ public class ContactsSectionManager : MonoBehaviour {
         listCounter = 0;
         tapcounter = 0;
         isContactsOpen = false;
-        letterSeperatorPanel = GameObject.FindGameObjectWithTag("LetterSeperatorPanel");
-        letterSeperatorPanel.SetActive(false);   
+
         contactsItems = new List<ContactsItem>();
         newItems = new List<GameObject>();
         contactsListPanel = GameObject.FindGameObjectWithTag("ContactsListPanel");
@@ -39,20 +40,21 @@ public class ContactsSectionManager : MonoBehaviour {
         letterBtn.onClick.AddListener(() => letterBtnAction(letter.returnLetter()));      
     }
 
-    public void calculateListSize() {
-        int size = 0;
-
+    public int calculateListHeight() {
+        int height = 0;
         for (int count = listCounter; count <= listCounter; count--) {
             if (count == 0) {
-                return;
+                break;
+            } else {
+                height = height + 8;
             }
-            size = size + 8;
         }
-            size = 0;
+        return height;
     }
 
-    public void addSeperatorPanel() {
-        letterSeperatorPanel.SetActive(true);
+    public int calculateListDistance() {
+        int distance = calculateListHeight();    
+        return distance;
     }
 
     void letterBtnAction(string letter) {
@@ -60,21 +62,35 @@ public class ContactsSectionManager : MonoBehaviour {
         if (tapcounter > 1) {
             tapcounter = 0;
             listCounter = 0;
-            contactsListPanel.SetActive(false);
+            contactsListPanel.SetActive(false);  
             addContacts("0");
             cleanUp();
         } else {
             contactsListPanel.SetActive(true);
             addContacts(letter);
+            int d = calculateListDistance();
+            print("DISTANCE: " + d);
+            
         }
     }
+
+    public string getCurrentLetter()
+    {
+        return currentLetter;
+    }
     
+    public void calculateCurrentLetterIndex()
+    {
+
+    }
+
+
     public void cleanUp() { 
         foreach (ContactsItem oldItem in contactsItems) {
             contactsItems.Clear();    
         }
         foreach (GameObject fabObjects in newItems) {
-            Destroy(fabObjects);   
+            DestroyImmediate(fabObjects);   
         }
     }
 
@@ -84,119 +100,150 @@ public class ContactsSectionManager : MonoBehaviour {
         cleanUp();  
               
         switch (letter) {
-            case "A":             
+            case "A":
                 contactsItems.Add(new ContactsItem("Barry Alan"));
                 contactsItems.Add(new ContactsItem("Johnny Anarchy"));
                 contactsItems.Add(new ContactsItem("Samus Aran"));
                 break;
 
             case "B":
-                print("CASE B");
+                contactsItems.Add(new ContactsItem("Josh Benson"));
+                contactsItems.Add(new ContactsItem("David Bowie"));
                 break;
 
             case "C":
-                print("CASE C");
+                contactsItems.Add(new ContactsItem("John Constantine"));
                 break;
 
             case "D":
-                print("CASE D");
+                contactsItems.Add(new ContactsItem("Tony Danza"));
+                contactsItems.Add(new ContactsItem("Glen Danzig"));
+                contactsItems.Add(new ContactsItem("Helen Delgado"));
+                contactsItems.Add(new ContactsItem("Severo Delgado"));
+                contactsItems.Add(new ContactsItem("Judge Dread"));
                 break;
 
             case "E":
-                print("CASE E");
+                contactsItems.Add(new ContactsItem("Trash Englebretzen"));
                 break;
 
             case "F":
-                print("CASE F");
+                contactsItems.Add(new ContactsItem("Guy Fawkes"));
+                contactsItems.Add(new ContactsItem("Chris Farley"));
+                contactsItems.Add(new ContactsItem("Carrie Fisher"));
+                contactsItems.Add(new ContactsItem("Dan Folgleberg"));
+                contactsItems.Add(new ContactsItem("Black Francis"));
                 break;
 
             case "G":
-                print("CASE G");
+                contactsItems.Add(new ContactsItem("Janeane Garafalo"));
+                contactsItems.Add(new ContactsItem("Bill Gates"));
                 break;
 
             case "H":
-                print("CASE H");
+                contactsItems.Add(new ContactsItem("Rob Halford"));
+                contactsItems.Add(new ContactsItem("Ziggy Hop"));
+                contactsItems.Add(new ContactsItem("Aldous Huxley"));
                 break;
 
             case "I":
-                print("CASE I");
+                contactsItems.Add(new ContactsItem("Ironamn7"));
                 break;
 
             case "J":
-                print("CASE J");
+                contactsItems.Add(new ContactsItem("Dick Johnson"));
+                contactsItems.Add(new ContactsItem("Harry Johnson"));
+                contactsItems.Add(new ContactsItem("Jenk Johnson"));
+                contactsItems.Add(new ContactsItem("John Johnson"));
+                contactsItems.Add(new ContactsItem("Peter Johnson"));
+                contactsItems.Add(new ContactsItem("Sandy Johnson"));
+
                 break;
 
             case "K":
-                print("CASE K");
+                contactsItems.Add(new ContactsItem("Freddy Krueger"));
                 break;
 
             case "L":
-                print("CASE L");
+                contactsItems.Add(new ContactsItem("Wude Law"));
+                contactsItems.Add(new ContactsItem("Michael Linsner"));
                 break;
 
-            case "M": 
+            case "M":
                 contactsItems.Add(new ContactsItem("Adam Mortell"));
                 contactsItems.Add(new ContactsItem("Christine Mortell"));
-                contactsItems.Add(new ContactsItem("Tony Montana"));
                 contactsItems.Add(new ContactsItem("Mario Mario"));
                 contactsItems.Add(new ContactsItem("Luigi Mario"));
                 contactsItems.Add(new ContactsItem("Tom Morello"));
-                contactsItems.Add(new ContactsItem("Dave Mustane"));            
+                contactsItems.Add(new ContactsItem("Bill Murray"));
+                contactsItems.Add(new ContactsItem("Dave Mustane"));
                 break;
 
             case "N":
-                print("CASE N");
+                contactsItems.Add(new ContactsItem("Friedrich Nietzsche"));
+                contactsItems.Add(new ContactsItem("Bill Nye"));
                 break;
 
             case "O":
-                print("CASE O");
+                contactsItems.Add(new ContactsItem("Karen O."));
+                contactsItems.Add(new ContactsItem("Conan O'Brien"));
                 break;
 
             case "P":
-                print("CASE P");
+                contactsItems.Add(new ContactsItem("Peter Parker"));
+                contactsItems.Add(new ContactsItem("Senator Palapatine"));
                 break;
 
             case "Q":
-                print("CASE Q");
+                contactsItems.Add(new ContactsItem("Alan Quartermain"));
                 break;
 
             case "R":
-                print("CASE R");
+                contactsItems.Add(new ContactsItem("Trent Reznor"));
                 break;
-                
+
             case "S":
-                print("CASE S");
+                contactsItems.Add(new ContactsItem("Han Solo"));
+                contactsItems.Add(new ContactsItem("Stan Solo"));
                 break;
 
             case "T":
-                print("CASE T");
+                contactsItems.Add(new ContactsItem("Serj Tankian"));
+                contactsItems.Add(new ContactsItem("Channing Tatum"));
+                contactsItems.Add(new ContactsItem("Mike Tyson"));
                 break;
 
             case "U":
-                print("CASE U");
+                contactsItems.Add(new ContactsItem("Skeet Ulrich"));
+                contactsItems.Add(new ContactsItem("Jay Underwood"));
                 break;
 
             case "V":
-                print("CASE V");
+                contactsItems.Add(new ContactsItem("Jan-Michael Vincent"));
                 break;
 
             case "W":
-                print("CASE W");
+                contactsItems.Add(new ContactsItem("Andy Wachowski"));
+                contactsItems.Add(new ContactsItem("Larry Wachowski"));
+                contactsItems.Add(new ContactsItem("Meg White"));
                 break;
 
             case "X":
-                print("CASE X");
+                contactsItems.Add(new ContactsItem("Charly Xavier"));
                 break;
 
             case "Y":
-                print("CASE Y");
+                contactsItems.Add(new ContactsItem("Al Yankovic"));
+                contactsItems.Add(new ContactsItem("Thom Yorke"));
+                contactsItems.Add(new ContactsItem("Love Young"));
                 break;
 
             case "Z":
-                print("CASE Z");
+                contactsItems.Add(new ContactsItem("Mork Zuckleberg"));
+
                 break;
             case "0":
-                print("No Entry");
+
                 break;
         }
 
@@ -208,33 +255,15 @@ public class ContactsSectionManager : MonoBehaviour {
             newItem.transform.localScale = Vector3.one;
             listCounter++;
             newItems.Add(newItem);
-
         }
+        
     }
 
-    public void addNewContact(string newContact)
-    {
-        contactsItems = new List<ContactsItem>();
-        contactsItems.Add(new ContactsItem(newContact));
-       
-        foreach (ContactsItem item in contactsItems)
-        {
-            GameObject newItem = Instantiate(contactsItemPrefab) as GameObject;
-            ContactsItemController controller = newItem.GetComponent<ContactsItemController>();
-            controller.Name.text = item.Name;
-            newItem.transform.SetParent(ContentPanel.transform);
-            newItem.transform.localScale = Vector3.one;
-        }
-    }
-
-    public void OnAddNewContact(string contact) {
-        addNewContact(contact);
-    }
-
-    private void OnDestroy() {
+    private void OnDestroy() {    
         listCounter = 0;
+        tapcounter = 0;
         letterBtn.onClick.RemoveAllListeners();
-        print("DESTROYED ALPHABETT ITEM");
+        print("DESTROYED listCounter, REMOVED Listeners");
     }
 
 }
