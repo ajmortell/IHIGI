@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: af5c711b5b2ad0f40ad07d54270f10a2
+timeCreated: 1492606463
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: C&C Red Alert [INET]
+  fontNames:
+  - C&C Red Alert [INET]
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

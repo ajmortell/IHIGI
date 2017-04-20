@@ -64,6 +64,23 @@ TagManager:
   - AlphabetListlPanel
   - Letter
   - LetterSeperatorPanel
+  - SkillBtn
+  - SkillMenuPanel
+  - SkillBtnPanel
+  - SkillLblPanel
+  - SkillBtnA
+  - SkillBtnB
+  - SkillBtnC
+  - SkillBtnD
+  - SkillBtnE
+  - SkillPanelA
+  - SkillPanelB
+  - SkillPanelC
+  - SkillPanelD
+  - SkillPanelE
+  - SkillSetListPanel
+  - SkillSetItemFab
+  - SetBtn
   layers:
   - Default
   - TransparentFX

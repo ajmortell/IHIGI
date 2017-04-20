@@ -146,6 +146,9 @@
     <Compile Include="Assets\SCRIPTS\Game\Employee\Skill.cs" />
     <Compile Include="Assets\SCRIPTS\Game\GameTimer.cs" />
     <Compile Include="Assets\SCRIPTS\Game\LoadScene.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Menus\Main\SkillMenuBtnsManager.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Menus\Main\SkillSetItem.cs" />
+    <Compile Include="Assets\SCRIPTS\Game\Menus\Main\SkillSetItemController.cs" />
     <Compile Include="Assets\SCRIPTS\Game\PlayerMenu.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Social\Map\GridManager.cs" />
     <Compile Include="Assets\SCRIPTS\Game\Social\Map\GridTile.cs" />

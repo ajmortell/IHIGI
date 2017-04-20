@@ -5,5 +5,4 @@ using UnityEngine.UI;
 
 public class ContactsItemController : MonoBehaviour {
     public Text Name;
-    
 }

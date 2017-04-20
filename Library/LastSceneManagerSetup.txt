@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/SCENES/Game/CellScene/CellScene.unity
+- path: Assets/SCENES/Game/DeskScene/MainScene.unity
   isLoaded: 1
   isActive: 1

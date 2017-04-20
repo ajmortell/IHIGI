@@ -12,12 +12,12 @@ public class ContactsSectionManager : MonoBehaviour {
     private bool isContactsOpen;
     private string currentLetter;
     private int contactIndex;
-    private List<ContactsItem> contactsItems;
-    private List<GameObject> newItems;
+    private List<ContactsItem> contactsItems;//
+    private List<GameObject> newItems;//
 
     public GameObject contactsListPanel;
-    public GameObject ContentPanel;
-    public GameObject contactsItemPrefab;
+    public GameObject ContentPanel;//
+    public GameObject contactsItemPrefab;//
     private GameObject letterBtnObj;
     private GameObject letterObj;
 
