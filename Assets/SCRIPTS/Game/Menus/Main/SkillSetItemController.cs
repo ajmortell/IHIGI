@@ -5,5 +5,4 @@ using UnityEngine.UI;
 
 public class SkillSetItemController : MonoBehaviour {
     public Text Name;
-    public bool Equiped;
 }
