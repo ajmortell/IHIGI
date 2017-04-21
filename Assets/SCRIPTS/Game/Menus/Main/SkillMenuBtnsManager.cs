@@ -53,13 +53,13 @@ public class SkillMenuBtnsManager : MonoBehaviour {
         skillBtnD = skillBtnObjD.GetComponent<Button>();
         skillBtnE = skillBtnObjE.GetComponent<Button>();
 
-        setupSkillBtnPanels();
-
         skillBtnA.onClick.AddListener(() => skillBtnAction(skillBtnA.tag));
         skillBtnB.onClick.AddListener(() => skillBtnAction(skillBtnB.tag));
         skillBtnC.onClick.AddListener(() => skillBtnAction(skillBtnC.tag));
         skillBtnD.onClick.AddListener(() => skillBtnAction(skillBtnD.tag));
         skillBtnE.onClick.AddListener(() => skillBtnAction(skillBtnE.tag));
+
+        setupSkillBtnPanels();
     }
 
     public void setupSkillBtnPanels() {
@@ -95,6 +95,11 @@ public class SkillMenuBtnsManager : MonoBehaviour {
         skillSetItems.Add(new SkillSetItem("Straight Shooter"));
         skillSetItems.Add(new SkillSetItem("Punctual Person"));
         skillSetItems.Add(new SkillSetItem("Wild Card"));
+        skillSetItems.Add(new SkillSetItem("Chance Encounter"));
+        skillSetItems.Add(new SkillSetItem("Super Scientist"));
+        skillSetItems.Add(new SkillSetItem("Arrogant Consistency"));
+        skillSetItems.Add(new SkillSetItem("Artful Nature"));
+        skillSetItems.Add(new SkillSetItem("Developing Mind"));
 
         foreach (SkillSetItem item in skillSetItems) {
             GameObject newItem = Instantiate(skillSetItemPrefab) as GameObject;

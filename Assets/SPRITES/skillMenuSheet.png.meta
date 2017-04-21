@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 3cad6b2cdc3e6134cae182b32500fd0d
-timeCreated: 1492714156
+timeCreated: 1492785501
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -33,6 +33,12 @@ TextureImporter:
     21300052: skillSetListPanel_White
     21300054: closeSkillListBtn_01
     21300056: closeSkillListBtn_02
+    21300058: skillBtnPanel_01
+    21300060: skillBtnPanelBtn_01
+    21300062: skillBtnPanel_02
+    21300064: skillBtnPanelBtn_02
+    21300066: skillSlotBtn_01
+    21300068: skillSlotBtn_02
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -447,6 +453,84 @@ TextureImporter:
         y: 59
         width: 5
         height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: skillBtnPanel_01
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 21
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: skillBtnPanelBtn_01
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 21
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: skillBtnPanel_02
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 21
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: skillBtnPanelBtn_02
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 21
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: skillSlotBtn_01
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 9
+        width: 42
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: skillSlotBtn_02
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 9
+        width: 42
+        height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
