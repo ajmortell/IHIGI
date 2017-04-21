@@ -39,6 +39,7 @@ public class SkillMenuBtnsManager : MonoBehaviour {
         skillSetItems = new List<SkillSetItem>();
         newItems = new List<GameObject>();
         skillSetListPanel = GameObject.FindGameObjectWithTag("SkillSetListPanel");
+        //setupSkillBtnPanels();
         skillSetListPanel.SetActive(false);
 
         skillBtnObjA = GameObject.FindGameObjectWithTag("SkillBtnA");
@@ -53,7 +54,7 @@ public class SkillMenuBtnsManager : MonoBehaviour {
         skillBtnD = skillBtnObjD.GetComponent<Button>();
         skillBtnE = skillBtnObjE.GetComponent<Button>();
 
-        setupSkillBtnPanels();
+        
 
         skillBtnA.onClick.AddListener(() => skillBtnAction(skillBtnA.tag));
         skillBtnB.onClick.AddListener(() => skillBtnAction(skillBtnB.tag));
@@ -89,12 +90,17 @@ public class SkillMenuBtnsManager : MonoBehaviour {
         skillSetItems = new List<SkillSetItem>();
         cleanUp();
 
-        skillSetItems.Add(new SkillSetItem("Charming Charmer"));
-        skillSetItems.Add(new SkillSetItem("Double Integrity"));
-        skillSetItems.Add(new SkillSetItem("Night Owel"));
-        skillSetItems.Add(new SkillSetItem("Straight Shooter"));
-        skillSetItems.Add(new SkillSetItem("Punctual Person"));
-        skillSetItems.Add(new SkillSetItem("Wild Card"));
+        skillSetItems.Add(new SkillSetItem("Charming Charmer", false));
+        skillSetItems.Add(new SkillSetItem("Double Integrity", false));
+        skillSetItems.Add(new SkillSetItem("Night Owel", false));
+        skillSetItems.Add(new SkillSetItem("Straight Shooter", false));
+        skillSetItems.Add(new SkillSetItem("Punctual Person", false));
+        skillSetItems.Add(new SkillSetItem("Wild Card ", false));
+        skillSetItems.Add(new SkillSetItem("Wild Card II", false));
+        skillSetItems.Add(new SkillSetItem("Wild Card III", false));
+        skillSetItems.Add(new SkillSetItem("Responsible Person", false));
+        skillSetItems.Add(new SkillSetItem("Responsible Person II", false));
+        skillSetItems.Add(new SkillSetItem("Hook, Line & Sinker",false));
 
         foreach (SkillSetItem item in skillSetItems) {
             GameObject newItem = Instantiate(skillSetItemPrefab) as GameObject;
@@ -102,6 +108,8 @@ public class SkillMenuBtnsManager : MonoBehaviour {
             controller.Name.text = item.Name;
             newItem.transform.SetParent(ContentPanel.transform);
             newItem.transform.localScale = Vector3.one;
+            string textName = item.Name;
+            print("TEXT NAME :" + textName);
             newItems.Add(newItem);
         }
     }
