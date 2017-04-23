@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Marquee : MonoBehaviour {
-
+    /*
     public Texture marqueeTexture;
 
     private Vector2 marqueeOrigin;
@@ -41,4 +41,5 @@ public class Marquee : MonoBehaviour {
         }
 
     }
+    */
 }

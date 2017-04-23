@@ -81,6 +81,18 @@ TagManager:
   - SkillSetListPanel
   - SkillSetItemFab
   - SetBtn
+  - SkillTypeBtnPanel
+  - MindBtnPanel
+  - StrengthBtnPanel
+  - CourageBtnPanel
+  - CharmBtnPanel
+  - MindBtn
+  - StrengthBtn
+  - CourageBtn
+  - CharmBtn
+  - SkillButtons
+  - SkillListPanel
+  - SkillPanel
   layers:
   - Default
   - TransparentFX

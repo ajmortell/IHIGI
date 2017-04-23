@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SkillSetItem {
+public class SkillItem {
 
     public string Name;
 
-    public SkillSetItem(string name) {
+    public SkillItem(string name) {
         Name = name;
     }
 }

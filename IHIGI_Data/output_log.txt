@@ -17,73 +17,85 @@ Platform assembly: C:\Users\Adam\Documents\I Hope I get It\IHIGI\IHIGI_Data\Mana
 Loading C:\Users\Adam\Documents\I Hope I get It\IHIGI\IHIGI_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\Adam\Documents\I Hope I get It\IHIGI\IHIGI_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading C:\Users\Adam\Documents\I Hope I get It\IHIGI\IHIGI_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.028 seconds
+- Completed reload, in  0.039 seconds
 Platform assembly: C:\Users\Adam\Documents\I Hope I get It\IHIGI\IHIGI_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Adam\Documents\I Hope I get It\IHIGI\IHIGI_Data\Managed\System.dll (this message is harmless)
 desktop: 1360x768 59Hz; virtual: 3280x768 at -1920,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.294041 ms
+UnloadTime: 2.598515 ms
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 15.633814 ms
+UnloadTime: 8.903704 ms
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 410.
-Total: 18.569691 ms (FindLiveObjects: 0.093948 ms CreateObjectMapping: 0.059358 ms MarkObjects: 0.413371 ms  DeleteObjects: 18.001305 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 413.
+Total: 7.206235 ms (FindLiveObjects: 0.041849 ms CreateObjectMapping: 0.052098 ms MarkObjects: 0.301487 ms  DeleteObjects: 6.809091 ms)
 
 BUTTON PRESSED SKIP SCENE
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.830279 ms
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 422.
-Total: 0.557709 ms (FindLiveObjects: 0.056368 ms CreateObjectMapping: 0.030319 ms MarkObjects: 0.410809 ms  DeleteObjects: 0.058931 ms)
-
-Drawer Open
+UnloadTime: 1.391710 ms
+STAT MIND : 3
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-onDrawerOpen
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 832.
+Total: 0.957415 ms (FindLiveObjects: 0.112310 ms CreateObjectMapping: 0.039714 ms MarkObjects: 0.738772 ms  DeleteObjects: 0.065336 ms)
+
+OPEN
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Drawer Close
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-onDrawerClose
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Drawer Open
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-onDrawerOpen
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Drawer Close
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-onDrawerClose
+CLOSE
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.941615 ms
+UnloadTime: 1.116699 ms
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 459.
-Total: 0.786601 ms (FindLiveObjects: 0.070888 ms CreateObjectMapping: 0.039714 ms MarkObjects: 0.628598 ms  DeleteObjects: 0.045692 ms)
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 462.
+Total: 0.716139 ms (FindLiveObjects: 0.086261 ms CreateObjectMapping: 0.035016 ms MarkObjects: 0.539773 ms  DeleteObjects: 0.053806 ms)
+
+StartMenuPanel Opened
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.884393 ms
+UnloadTime: 0.756708 ms
+STAT MIND : 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 499.
-Total: 0.670447 ms (FindLiveObjects: 0.060212 ms CreateObjectMapping: 0.030746 ms MarkObjects: 0.555574 ms  DeleteObjects: 0.022205 ms)
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 832.
+Total: 0.899765 ms (FindLiveObjects: 0.086261 ms CreateObjectMapping: 0.035871 ms MarkObjects: 0.756281 ms  DeleteObjects: 0.019643 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.643543 ms
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 462.
+Total: 0.468031 ms (FindLiveObjects: 0.046546 ms CreateObjectMapping: 0.018789 ms MarkObjects: 0.355294 ms  DeleteObjects: 0.046546 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.703755 ms
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 385.
+Total: 0.351023 ms (FindLiveObjects: 0.036298 ms CreateObjectMapping: 0.017508 ms MarkObjects: 0.280989 ms  DeleteObjects: 0.015800 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.576071 ms
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 462.
+Total: 0.439847 ms (FindLiveObjects: 0.046973 ms CreateObjectMapping: 0.020497 ms MarkObjects: 0.357856 ms  DeleteObjects: 0.013238 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.551730 ms
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 502.
+Total: 0.530378 ms (FindLiveObjects: 0.053806 ms CreateObjectMapping: 0.022205 ms MarkObjects: 0.435576 ms  DeleteObjects: 0.017508 ms)
 
 --SELECTED:  True
  
@@ -105,345 +117,81 @@ Total: 0.670447 ms (FindLiveObjects: 0.060212 ms CreateObjectMapping: 0.030746 m
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-RETURNING... True
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DELETED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RETURNING... True
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DELETED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RETURNING... True
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DELETED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RETURNING... True
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DELETED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RETURNING... True
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DELETED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RETURNING... True
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DELETED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RETURNING... True
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DELETED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RETURNING... True
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DELETED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RETURNING... True
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DELETED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RETURNING... True
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DELETED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
 --SELECTTED:  False
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
+--CHECK BOX _ SELECTED:  False
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+--CHECK BOX _ SELECTED:  False
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+--CHECK BOX _ SELECTED:  False
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+--CHECK BOX _ SELECTED:  False
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.447654 ms
+UnloadTime: 3.349244 ms
 
-Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 462.
-Total: 0.466751 ms (FindLiveObjects: 0.058504 ms CreateObjectMapping: 0.020497 ms MarkObjects: 0.351878 ms  DeleteObjects: 0.035017 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.594435 ms
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 382.
-Total: 0.417214 ms (FindLiveObjects: 0.045265 ms CreateObjectMapping: 0.022205 ms MarkObjects: 0.330953 ms  DeleteObjects: 0.017935 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.830586 ms
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 459.
-Total: 0.637565 ms (FindLiveObjects: 0.066617 ms CreateObjectMapping: 0.033308 ms MarkObjects: 0.518422 ms  DeleteObjects: 0.018362 ms)
+Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 465.
+Total: 0.685820 ms (FindLiveObjects: 0.095229 ms CreateObjectMapping: 0.035016 ms MarkObjects: 0.508173 ms  DeleteObjects: 0.045692 ms)
 
 StartMenuPanel Opened
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.926242 ms
+UnloadTime: 0.849374 ms
+STAT MIND : 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 422.
-Total: 0.760125 ms (FindLiveObjects: 0.078574 ms CreateObjectMapping: 0.043984 ms MarkObjects: 0.605111 ms  DeleteObjects: 0.030746 ms)
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 832.
+Total: 0.985172 ms (FindLiveObjects: 0.091812 ms CreateObjectMapping: 0.039714 ms MarkObjects: 0.830158 ms  DeleteObjects: 0.022632 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.655928 ms
+UnloadTime: 0.788308 ms
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1475.
-Total: 1.173923 ms (FindLiveObjects: 0.264762 ms CreateObjectMapping: 0.078147 ms MarkObjects: 0.794715 ms  DeleteObjects: 0.033735 ms)
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 1478.
+Total: 0.940760 ms (FindLiveObjects: 0.143911 ms CreateObjectMapping: 0.058930 ms MarkObjects: 0.678560 ms  DeleteObjects: 0.058930 ms)
 
-SCANNED TILE X: -58 Y: -21 SIZE: (10.0, 10.0)
+SCANNED TILE X: -58 Y: 42 SIZE: (10.0, 10.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tile clicked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+SCANNING..................................
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+SCANNED TILE X: -58 Y: 31.5 SIZE: (10.0, 10.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NPCs IN SCAN AREA: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tile clicked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+SCANNING..................................
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+SCANNED TILE X: -47.5 Y: 31.5 SIZE: (10.0, 10.0)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -455,19 +203,23 @@ NPCs IN SCAN AREA: 2
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-NPCs IN SCAN AREA: 3
+tile clicked
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-NPCs IN SCAN AREA: 4
+SCANNING..................................
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-NPCs IN SCAN AREA: 5
+SCANNED TILE X: -47.5 Y: 42 SIZE: (10.0, 10.0)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-NPCs IN SCAN AREA: 6
+NPCs IN SCAN AREA: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NPCs IN SCAN AREA: 2
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -480,132 +232,32 @@ SCANNING..................................
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 7.688369 ms
+UnloadTime: 8.290480 ms
+STAT MIND : 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Unloading 155 unused Assets to reduce memory usage. Loaded Objects now: 422.
-Total: 1.120544 ms (FindLiveObjects: 0.126402 ms CreateObjectMapping: 0.087542 ms MarkObjects: 0.661906 ms  DeleteObjects: 0.243410 ms)
+
+Unloading 155 unused Assets to reduce memory usage. Loaded Objects now: 832.
+Total: 1.304595 ms (FindLiveObjects: 0.108467 ms CreateObjectMapping: 0.049963 ms MarkObjects: 0.955706 ms  DeleteObjects: 0.189177 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.685820 ms
+UnloadTime: 1.115418 ms
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 339.
-Total: 0.517995 ms (FindLiveObjects: 0.073877 ms CreateObjectMapping: 0.046974 ms MarkObjects: 0.357429 ms  DeleteObjects: 0.038006 ms)
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 342.
+Total: 0.498778 ms (FindLiveObjects: 0.045692 ms CreateObjectMapping: 0.029038 ms MarkObjects: 0.360845 ms  DeleteObjects: 0.061493 ms)
 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.696496 ms
+UnloadTime: 0.594434 ms
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3716.
-Total: 5.875171 ms (FindLiveObjects: 0.435150 ms CreateObjectMapping: 0.165690 ms MarkObjects: 5.220096 ms  DeleteObjects: 0.052098 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3607.
+Total: 5.502361 ms (FindLiveObjects: 0.378781 ms CreateObjectMapping: 0.131527 ms MarkObjects: 4.927570 ms  DeleteObjects: 0.063201 ms)
 
-MessagesPanel Opened
+PhonePanel Opened
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-MessagesPanel Closed
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CalendarPanel Opened
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-CalendarPanel Closed
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-socialOptionsBtn pressed :  
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-SocialOptionPanel -- Opened
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-mySelfBtn pressed :  
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-postBtn pressed :  
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-doneBtn pressed :  
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-postBtn pressed :  
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-doneBtn pressed :  
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-feedBtn pressed :  
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-socialOptionsBtn pressed :  
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-SocialOptionPanel -- Opened
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-friendsBtn pressed :  
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-socialOptionsBtn pressed :  
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-SocialOptionPanel -- Opened
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-findBtn pressed :  
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-socialOptionsBtn pressed :  
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-SocialOptionPanel -- Opened
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-friendsBtn pressed :  
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-socialOptionsBtn pressed :  
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-SocialOptionPanel -- Opened
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-mySelfBtn pressed :  
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-feedBtn pressed :  
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-socialOptionsBtn pressed :  
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-SocialOptionPanel -- Opened
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-socialBackBtn pressed :  
+PhonePanel Closed
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -613,27 +265,11 @@ ContactsPanel Opened
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-No Entry
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-No Entry
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-No Entry
+DISTANCE: 24
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 ContactsPanel Closed
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-PhonePanel Opened
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-PhonePanel Closed
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -662,288 +298,118 @@ MusicPanel Closed
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-DESTROYED ALPHABETT ITEM
+DESTROYED listCounter, REMOVED Listeners
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-DESTROYED ALPHABETT ITEM
+DESTROYED listCounter, REMOVED Listeners
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-DESTROYED ALPHABETT ITEM
+DESTROYED listCounter, REMOVED Listeners
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-DESTROYED ALPHABETT ITEM
+DESTROYED listCounter, REMOVED Listeners
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-DESTROYED ALPHABETT ITEM
+DESTROYED listCounter, REMOVED Listeners
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-DESTROYED ALPHABETT ITEM
+DESTROYED listCounter, REMOVED Listeners
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-DESTROYED ALPHABETT ITEM
+DESTROYED listCounter, REMOVED Listeners
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-DESTROYED ALPHABETT ITEM
+DESTROYED listCounter, REMOVED Listeners
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-DESTROYED ALPHABETT ITEM
+DESTROYED listCounter, REMOVED Listeners
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-DESTROYED ALPHABETT ITEM
+DESTROYED listCounter, REMOVED Listeners
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-DESTROYED ALPHABETT ITEM
+DESTROYED listCounter, REMOVED Listeners
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-DESTROYED ALPHABETT ITEM
+DESTROYED listCounter, REMOVED Listeners
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-DESTROYED ALPHABETT ITEM
+DESTROYED listCounter, REMOVED Listeners
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-DESTROYED ALPHABETT ITEM
+DESTROYED listCounter, REMOVED Listeners
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-DESTROYED ALPHABETT ITEM
+DESTROYED listCounter, REMOVED Listeners
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-DESTROYED ALPHABETT ITEM
+DESTROYED listCounter, REMOVED Listeners
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-DESTROYED ALPHABETT ITEM
+DESTROYED listCounter, REMOVED Listeners
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-DESTROYED ALPHABETT ITEM
+DESTROYED listCounter, REMOVED Listeners
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-DESTROYED ALPHABETT ITEM
+DESTROYED listCounter, REMOVED Listeners
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-DESTROYED ALPHABETT ITEM
+DESTROYED listCounter, REMOVED Listeners
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-DESTROYED ALPHABETT ITEM
+DESTROYED listCounter, REMOVED Listeners
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-DESTROYED ALPHABETT ITEM
+DESTROYED listCounter, REMOVED Listeners
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-DESTROYED ALPHABETT ITEM
+DESTROYED listCounter, REMOVED Listeners
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-DESTROYED ALPHABETT ITEM
+DESTROYED listCounter, REMOVED Listeners
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-DESTROYED ALPHABETT ITEM
+DESTROYED listCounter, REMOVED Listeners
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-DESTROYED ALPHABETT ITEM
+DESTROYED listCounter, REMOVED Listeners
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-UnloadTime: 17.011435 ms
-
-Unloading 456 unused Assets to reduce memory usage. Loaded Objects now: 422.
-Total: 0.705891 ms (FindLiveObjects: 0.096510 ms CreateObjectMapping: 0.035017 ms MarkObjects: 0.393727 ms  DeleteObjects: 0.179782 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.680269 ms
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 459.
-Total: 0.604683 ms (FindLiveObjects: 0.046119 ms CreateObjectMapping: 0.023914 ms MarkObjects: 0.510735 ms  DeleteObjects: 0.023059 ms)
-
-StartMenuPanel Opened
+UnloadTime: 31.313282 ms
+STAT MIND : 3
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.338333 ms
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 422.
-Total: 0.676426 ms (FindLiveObjects: 0.081991 ms CreateObjectMapping: 0.043984 ms MarkObjects: 0.525255 ms  DeleteObjects: 0.023487 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.526109 ms
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 339.
-Total: 0.383906 ms (FindLiveObjects: 0.035444 ms CreateObjectMapping: 0.018362 ms MarkObjects: 0.307893 ms  DeleteObjects: 0.021351 ms)
-
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.523547 ms
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3716.
-Total: 3.237792 ms (FindLiveObjects: 0.340348 ms CreateObjectMapping: 0.111883 ms MarkObjects: 2.755240 ms  DeleteObjects: 0.029038 ms)
-
-MessagesPanel Opened
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-MessagesPanel Closed
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ContactsPanel Opened
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-No Entry
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ContactsPanel Closed
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-MusicPanel Opened
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-MusicPanel Closed
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-DESTROYED ALPHABETT ITEM
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED ALPHABETT ITEM
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED ALPHABETT ITEM
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED ALPHABETT ITEM
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED ALPHABETT ITEM
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED ALPHABETT ITEM
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED ALPHABETT ITEM
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED ALPHABETT ITEM
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED ALPHABETT ITEM
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED ALPHABETT ITEM
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED ALPHABETT ITEM
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED ALPHABETT ITEM
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED ALPHABETT ITEM
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED ALPHABETT ITEM
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED ALPHABETT ITEM
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED ALPHABETT ITEM
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED ALPHABETT ITEM
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED ALPHABETT ITEM
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED ALPHABETT ITEM
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED ALPHABETT ITEM
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED ALPHABETT ITEM
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED ALPHABETT ITEM
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED ALPHABETT ITEM
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED ALPHABETT ITEM
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED ALPHABETT ITEM
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-DESTROYED ALPHABETT ITEM
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-UnloadTime: 16.524612 ms
-
-Unloading 456 unused Assets to reduce memory usage. Loaded Objects now: 422.
-Total: 0.708880 ms (FindLiveObjects: 0.081136 ms CreateObjectMapping: 0.036725 ms MarkObjects: 0.411663 ms  DeleteObjects: 0.178928 ms)
-
-onDrawerOpen
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-onDrawerClose
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+Unloading 452 unused Assets to reduce memory usage. Loaded Objects now: 832.
+Total: 1.727788 ms (FindLiveObjects: 0.302768 ms CreateObjectMapping: 0.164835 ms MarkObjects: 1.030865 ms  DeleteObjects: 0.225902 ms)
 
 Drawer Open
  
@@ -957,9 +423,171 @@ Drawer Close
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-onDrawerClose
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.182463 ms
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 462.
+Total: 0.801546 ms (FindLiveObjects: 0.092239 ms CreateObjectMapping: 0.046973 ms MarkObjects: 0.594007 ms  DeleteObjects: 0.065763 ms)
+
+StartMenuPanel Opened
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.740053 ms
+STAT MIND : 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 832.
+Total: 0.929230 ms (FindLiveObjects: 0.081136 ms CreateObjectMapping: 0.029892 ms MarkObjects: 0.798130 ms  DeleteObjects: 0.018789 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.015492 ms
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 462.
+Total: 0.801973 ms (FindLiveObjects: 0.068752 ms CreateObjectMapping: 0.034162 ms MarkObjects: 0.627743 ms  DeleteObjects: 0.070460 ms)
+
+StartMenuPanel Opened
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.810087 ms
+STAT MIND : 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 832.
+Total: 0.925387 ms (FindLiveObjects: 0.108467 ms CreateObjectMapping: 0.036298 ms MarkObjects: 0.757989 ms  DeleteObjects: 0.021778 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.723826 ms
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 342.
+Total: 0.380916 ms (FindLiveObjects: 0.031600 ms CreateObjectMapping: 0.017081 ms MarkObjects: 0.290811 ms  DeleteObjects: 0.039714 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.424900 ms
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3607.
+Total: 3.290313 ms (FindLiveObjects: 0.268605 ms CreateObjectMapping: 0.088823 ms MarkObjects: 2.901283 ms  DeleteObjects: 0.029892 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+DESTROYED listCounter, REMOVED Listeners
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DESTROYED listCounter, REMOVED Listeners
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DESTROYED listCounter, REMOVED Listeners
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DESTROYED listCounter, REMOVED Listeners
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DESTROYED listCounter, REMOVED Listeners
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DESTROYED listCounter, REMOVED Listeners
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DESTROYED listCounter, REMOVED Listeners
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DESTROYED listCounter, REMOVED Listeners
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DESTROYED listCounter, REMOVED Listeners
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DESTROYED listCounter, REMOVED Listeners
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DESTROYED listCounter, REMOVED Listeners
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DESTROYED listCounter, REMOVED Listeners
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DESTROYED listCounter, REMOVED Listeners
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DESTROYED listCounter, REMOVED Listeners
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DESTROYED listCounter, REMOVED Listeners
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DESTROYED listCounter, REMOVED Listeners
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DESTROYED listCounter, REMOVED Listeners
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DESTROYED listCounter, REMOVED Listeners
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DESTROYED listCounter, REMOVED Listeners
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DESTROYED listCounter, REMOVED Listeners
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DESTROYED listCounter, REMOVED Listeners
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DESTROYED listCounter, REMOVED Listeners
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DESTROYED listCounter, REMOVED Listeners
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DESTROYED listCounter, REMOVED Listeners
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DESTROYED listCounter, REMOVED Listeners
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DESTROYED listCounter, REMOVED Listeners
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+UnloadTime: 19.386162 ms
+STAT MIND : 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 452 unused Assets to reduce memory usage. Loaded Objects now: 832.
+Total: 1.185025 ms (FindLiveObjects: 0.105477 ms CreateObjectMapping: 0.055941 ms MarkObjects: 0.828450 ms  DeleteObjects: 0.193874 ms)
+
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 1124 -> priority: 1 
+  Thread -> id: 1b5c -> priority: 1 

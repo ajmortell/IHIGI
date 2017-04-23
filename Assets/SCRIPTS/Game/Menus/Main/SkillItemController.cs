@@ -3,6 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SkillSetItemController : MonoBehaviour {
+public class SkillItemController : MonoBehaviour {
     public Text Name;
 }
