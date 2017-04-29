@@ -3,13 +3,17 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class LoadScene : MonoBehaviour {
+ 
+    void Awake() {
+    }
 
-    //public GameObject loadingImage = null;
-    //public bool isActive;
-
-    public void loadScene(int scene) {
-        // loadingImage.SetActive(isActive);
+    private IEnumerator loadWait(int scene) {
+        yield return new WaitForSeconds(0.0f);
         SceneManager.LoadScene(scene);
+    }
+
+    public void loadScene(int scene) { 
+        StartCoroutine(loadWait(scene));
     }
 
 }

@@ -20,6 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SCENES/Game/CellScene/CellInroScene.unity
   - enabled: 1
-    path: Assets/SCENES/Game/CellScene/CellScene.unity
+    path: Assets/SCENES/Game/CellScene/CellPhoneScene.unity
   - enabled: 1
     path: Assets/SCENES/Cut/IntroScene_01.unity

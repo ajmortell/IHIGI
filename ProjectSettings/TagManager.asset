@@ -93,6 +93,31 @@ TagManager:
   - SkillButtons
   - SkillListPanel
   - SkillPanel
+  - PhoneCallPanel
+  - PhoneAlphabetItemFab
+  - PhoneContactsItemFab
+  - MessagesBackBtn
+  - MessagesSectionBtn
+  - CalendarSectionBtn
+  - SocialSectionBtn
+  - ContactsSectionBtn
+  - PhoneSectionBtn
+  - MailSectionBtn
+  - BrowserSectionBtn
+  - MusicSectionBtn
+  - ContactsBackBtn
+  - CalendarBackBtn
+  - MailBackBtn
+  - BrowserBackBtn
+  - PhoneBackBtn
+  - MusicBackBtn
+  - SectionPanels
+  - MailPanel
+  - CellPhoneSections
+  - KeyPadPanel
+  - SkillMenuItemFab
+  - SkillsMenuPanel
+  - MainMenuPanel
   layers:
   - Default
   - TransparentFX
