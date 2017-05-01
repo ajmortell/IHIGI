@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerManager : MonoBehaviour {
+
 /*
     public enum StatType { MIND, CHARM, COURAGE, STRENGTH, LEARN, RISK };
     StatType statType;
@@ -95,4 +96,5 @@ public class PlayerManager : MonoBehaviour {
         }
     }
     */
+
 }

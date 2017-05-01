@@ -2549,6 +2549,8 @@ MonoBehaviour:
   firstName: 
   lastName: 
   level: 0
+  xp: 0
+  nextxp: 0
   focus: 0
   energy: 0
   cash: 0
@@ -2558,7 +2560,6 @@ MonoBehaviour:
   strength: 0
   learn: 0
   risk: 0
-  hasStatChanged: 0
 --- !u!4 &416290865
 Transform:
   m_ObjectHideFlags: 0
@@ -6700,6 +6701,50 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1230519969}
+--- !u!1 &1231303622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1231303624}
+  - component: {fileID: 1231303623}
+  m_Layer: 0
+  m_Name: GlobalMaster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1231303623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1231303622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6cca4511f1ad6b4eb04a0d229f238fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  savedPlayerData: {fileID: 0}
+  Player: {fileID: 416290862}
+  LocalCopyOfData: {fileID: 0}
+  IsSceneBeingLoaded: 0
+--- !u!4 &1231303624
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1231303622}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1240634469
 GameObject:
   m_ObjectHideFlags: 0

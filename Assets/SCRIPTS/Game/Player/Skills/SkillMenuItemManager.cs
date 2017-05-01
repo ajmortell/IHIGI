@@ -37,13 +37,14 @@ public class SkillMenuItemManager : MonoBehaviour {
 
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         Skill skills = player.GetComponent<Skill>();
-        System.Reflection.FieldInfo[] rFIs = skills.GetType().GetFields();
-        foreach (System.Reflection.FieldInfo rfi in rFIs) {
 
-            print("RFI GET STILL: "+ rfi.GetValue(skills));
+        System.Reflection.FieldInfo[] fields = skills.GetType().GetFields();
+        foreach (System.Reflection.FieldInfo field in fields) {
+
+            print("RFI GET SKILL: "+ field.GetValue(skills));
             
-            skillValueString = rfi.GetValue(skills).ToString();
-            skillMenuItems.Add(new SkillMenuItem(rfi.Name, skillValueString));
+            skillValueString = field.GetValue(skills).ToString();
+            skillMenuItems.Add(new SkillMenuItem(field.Name, skillValueString));
         }
 
         foreach (SkillMenuItem item in skillMenuItems) {

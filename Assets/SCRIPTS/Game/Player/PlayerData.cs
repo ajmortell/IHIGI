@@ -5,47 +5,33 @@ using UnityEngine;
 [System.Serializable]
 
 public class PlayerData : MonoBehaviour {
-    
+
+    [HideInInspector]
     public string firstName;
+    [HideInInspector]
     public string lastName;
-
-    public enum ClassType { ARTIST, LABOROR, ACADEMIC, POLITICIAN, BUSINESSMAN};
-
+    [HideInInspector]
     public int level;
+    [HideInInspector]
+    public int xp;
+    [HideInInspector]
+    public int nextxp;
+    [HideInInspector]
     public int focus;
+    [HideInInspector]
     public int energy;
+    [HideInInspector]
     public int cash;
-
+    [HideInInspector]
     public int mind;
+    [HideInInspector]
     public int charm;
+    [HideInInspector]
     public int courage;
+    [HideInInspector]
     public int strength;
+    [HideInInspector]
     public int learn;
+    [HideInInspector]
     public int risk;
-
-    public bool hasStatChanged;
-    
-    void Awake() {
-    firstName ="Player";
-    lastName="One";
-    level=0;
-    focus=0;
-    energy=0;
-    cash=0;
-    mind=0;
-    charm=0;
-    courage=0;
-    strength=0;
-    learn=0;
-    risk=0;
-    hasStatChanged=false;
-    
-    }
-
-    void Update() {
-        if (hasStatChanged == true) {
-            // UPDATE STAT
-            //increaseStat(2);
-        }
-    }
 }
