@@ -12,8 +12,11 @@ public class InventoryItemManager : MonoBehaviour {
     private List<InventoryItem> inventoryItems;
 
     private void Awake() {
-        layoutItems();
+        layoutItems("shirtsBtn");
+
     }
+
+
 
     public void cleanUp() {
         GameObject[] newItems = GameObject.FindGameObjectsWithTag("InventoryItemFab");
@@ -25,19 +28,60 @@ public class InventoryItemManager : MonoBehaviour {
         }
     }
 
-    /*
-    public Sprite gatherSprites()
-    {
-        return;
-    }
-    */
 
-    public void layoutItems() {
+    public void layoutItems(string btnName) {
+
         inventoryItems = new List<InventoryItem>();
         cleanUp();
-        int count = -1;
-        Sprite[] sprites = Resources.LoadAll<Sprite>("Sprites/Items/itemsSheet_01");
 
+        Sprite[] shirtsSprites = Resources.LoadAll<Sprite>("Sprites/Items/shirtsSheet");
+        Sprite[] shoesSprites = Resources.LoadAll<Sprite>("Sprites/Items/shoesSheet");
+        Sprite[] consumablesSprites = Resources.LoadAll<Sprite>("Sprites/Items/consumablesSheet");
+        Sprite[] awardsSprites = Resources.LoadAll<Sprite>("Sprites/Items/awardsSheet");
+        Sprite[] pantsSprites = Resources.LoadAll<Sprite>("Sprites/Items/pantsSheet");
+
+        switch (btnName)
+        {
+            case "shirtsBtn":
+                inventoryItems.Add(new InventoryItem(shirtsSprites[0], 01, 1, shirtsSprites[0].name, ""));
+                inventoryItems.Add(new InventoryItem(shirtsSprites[1], 02, 1, shirtsSprites[1].name, ""));
+                inventoryItems.Add(new InventoryItem(shirtsSprites[2], 03, 1, shirtsSprites[2].name, ""));
+                inventoryItems.Add(new InventoryItem(shirtsSprites[3], 04, 1, shirtsSprites[3].name, ""));
+                inventoryItems.Add(new InventoryItem(shirtsSprites[4], 05, 1, shirtsSprites[4].name, ""));
+                inventoryItems.Add(new InventoryItem(shirtsSprites[5], 06, 1, shirtsSprites[5].name, ""));
+                inventoryItems.Add(new InventoryItem(shirtsSprites[6], 07, 1, shirtsSprites[6].name, ""));
+                inventoryItems.Add(new InventoryItem(shirtsSprites[7], 08, 1, shirtsSprites[7].name, ""));
+                inventoryItems.Add(new InventoryItem(shirtsSprites[8], 09, 1, shirtsSprites[8].name, ""));
+                break;
+
+            case "shoesBtn":
+                inventoryItems.Add(new InventoryItem(shoesSprites[0], 10, 1, shoesSprites[0].name, ""));
+                inventoryItems.Add(new InventoryItem(shoesSprites[1], 11, 1, shoesSprites[1].name, ""));
+                inventoryItems.Add(new InventoryItem(shoesSprites[2], 12, 1, shoesSprites[2].name, ""));
+                inventoryItems.Add(new InventoryItem(shoesSprites[3], 13, 1, shoesSprites[3].name, ""));
+         
+                break;
+
+            case "consumablesBtn":
+                inventoryItems.Add(new InventoryItem(consumablesSprites[0], 14, 1, consumablesSprites[0].name, ""));
+                inventoryItems.Add(new InventoryItem(consumablesSprites[1], 15, 1, consumablesSprites[1].name, ""));
+                break;
+
+            case "awardsBtn":
+                inventoryItems.Add(new InventoryItem(awardsSprites[0], 16, 1, awardsSprites[0].name, ""));
+                inventoryItems.Add(new InventoryItem(awardsSprites[1], 17, 1, awardsSprites[1].name, ""));
+                inventoryItems.Add(new InventoryItem(awardsSprites[2], 18, 1, awardsSprites[2].name, ""));
+                inventoryItems.Add(new InventoryItem(awardsSprites[3], 19, 1, awardsSprites[3].name, ""));
+               
+                break;
+
+            case "pantsBtn":
+                inventoryItems.Add(new InventoryItem(pantsSprites[0], 20, 1, pantsSprites[0].name, ""));
+                inventoryItems.Add(new InventoryItem(pantsSprites[1], 21, 1, pantsSprites[1].name, ""));
+                inventoryItems.Add(new InventoryItem(pantsSprites[2], 22, 1, pantsSprites[2].name, ""));
+                inventoryItems.Add(new InventoryItem(pantsSprites[3], 23, 1, pantsSprites[3].name, ""));
+                break;
+        }
         /*
         foreach (Sprite s in sprites) {
             count++;
@@ -48,33 +92,7 @@ public class InventoryItemManager : MonoBehaviour {
         }
         */
 
-        inventoryItems.Add(new InventoryItem(sprites[0], 01, 1, sprites[0].name, ""));
-        inventoryItems.Add(new InventoryItem(sprites[1], 02, 1, sprites[1].name, ""));
-        inventoryItems.Add(new InventoryItem(sprites[2], 03, 1, sprites[2].name, ""));
-        inventoryItems.Add(new InventoryItem(sprites[3], 04, 1, sprites[3].name, ""));
-        inventoryItems.Add(new InventoryItem(sprites[4], 05, 1, sprites[4].name, ""));
-        inventoryItems.Add(new InventoryItem(sprites[5], 06, 1, sprites[5].name, ""));
-        inventoryItems.Add(new InventoryItem(sprites[6], 07, 1, sprites[6].name, ""));
-        inventoryItems.Add(new InventoryItem(sprites[7], 08, 1, sprites[7].name, ""));
-        inventoryItems.Add(new InventoryItem(sprites[8], 09, 5, sprites[8].name, ""));
-        inventoryItems.Add(new InventoryItem(sprites[9], 10, 1, sprites[9].name, ""));
-        inventoryItems.Add(new InventoryItem(sprites[10], 11, 1, sprites[10].name, ""));
-        inventoryItems.Add(new InventoryItem(sprites[11], 12, 1, sprites[11].name, ""));
-        inventoryItems.Add(new InventoryItem(sprites[12], 13, 1, sprites[12].name, ""));
-        inventoryItems.Add(new InventoryItem(sprites[13], 14, 1, sprites[13].name, ""));
-        inventoryItems.Add(new InventoryItem(sprites[14], 15, 1, sprites[14].name, ""));
-        inventoryItems.Add(new InventoryItem(sprites[15], 16, 1, sprites[15].name, ""));
-        inventoryItems.Add(new InventoryItem(sprites[16], 17, 1, sprites[16].name, ""));
-        inventoryItems.Add(new InventoryItem(sprites[17], 18, 1, sprites[17].name, ""));
-        inventoryItems.Add(new InventoryItem(sprites[18], 19, 1, sprites[18].name, ""));
-        inventoryItems.Add(new InventoryItem(sprites[19], 20, 1, sprites[19].name, ""));
-        inventoryItems.Add(new InventoryItem(sprites[20], 21, 1, sprites[20].name, ""));
-        inventoryItems.Add(new InventoryItem(sprites[21], 22, 1, sprites[21].name, ""));
-        inventoryItems.Add(new InventoryItem(sprites[22], 23, 3, sprites[22].name, ""));
-        inventoryItems.Add(new InventoryItem(sprites[23], 24, 1, sprites[23].name, ""));
-
-        foreach (InventoryItem item in inventoryItems)
-        {
+        foreach (InventoryItem item in inventoryItems) {
             GameObject newItem = Instantiate(inventoryItemPrefab) as GameObject;
             InventoryItemController controller = newItem.GetComponent<InventoryItemController>();
             controller.ID = item.ID;
@@ -85,5 +103,10 @@ public class InventoryItemManager : MonoBehaviour {
             newItem.transform.SetParent(ContentPanel.transform);
             newItem.transform.localScale = Vector3.one;
         }
+    }
+    
+    public void OnButtonPress(Button btn) {
+
+        layoutItems(btn.name);
     }
 }

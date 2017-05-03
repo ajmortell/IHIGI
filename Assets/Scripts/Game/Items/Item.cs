@@ -4,21 +4,20 @@ using UnityEngine;
 
 public class Item : MonoBehaviour {
 
-    private int itemID;
-    private string itemName;
-    private string itemDescription;
-    private Texture2D itemImage;
-    private int itemQty;
-    public enum ItemType { CONSUME,USE,EQUIP,SPEECH };
-    public ItemType itemType;
+    private bool isUnlocked;
+    private bool isOwned;
 
-	public Item (int itemid, string itemname, string itemdescription, Texture2D itemimage, int itemqty, ItemType itemtype) {
-        itemID = itemid;
-        itemName = itemname;
-        itemDescription = itemdescription;
-        itemImage = itemimage;
-        itemQty = itemqty;
-        itemType = itemtype;
-        
+    public Item () {
+
+        isUnlocked = false;
+        isOwned = false;
+    }
+
+    public void setIsUnlocked(bool isit) {
+        isUnlocked = isit;
+    }
+
+    public void setIsOwned(bool isit) {
+        isOwned = isit;
     }
 }

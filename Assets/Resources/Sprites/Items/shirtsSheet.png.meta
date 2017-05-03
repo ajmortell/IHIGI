@@ -1,33 +1,31 @@
 fileFormatVersion: 2
-guid: cf35ad586fe439d4aa109e8258e50956
-timeCreated: 1493749868
+guid: a819aa8a92d4b0744af1ede878fddc81
+timeCreated: 1493823070
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: All American
-    21300002: Black Knight
-    21300004: Black Polo Shirt
-    21300006: Red Flannel
-    21300008: Heart T Shirt
-    21300010: Navy Polo
-    21300012: Olive Branch
-    21300014: Black T
-    21300016: Blue Flannel
-    21300018: Butter Scotch
-    21300020: Green Flannel
-    21300022: Midnight Ceo
-    21300024: Plain White T
-    21300026: Dragon Scales
-    21300028: Brown Flannel
-    21300030: Caki Polo
-    21300032: Cock-A-Cola
-    21300034: Lime Polo
-    21300036: Seagreen CEO
-    21300038: Purple Sale
-    21300040: Woodman Flannel
-    21300042: Red Polo
-    21300044: Suck It Soda
-    21300046: Robit T
+    21300002: Plain Black T
+    21300004: Black Knight
+    21300006: Black Lizard
+    21300008: Olive Branch
+    21300010: Lime Lizard
+    21300012: String Bean
+    21300014: Plain White T
+    21300016: Stary Night
+    21300018: Brown Bomb
+    21300020: Robit T
+    21300022: Butter Scotch
+    21300024: Heart T
+    21300026: Navy Lizard
+    21300028: Sea Weed
+    21300030: Magma Trails
+    21300032: Caki Lizard
+    21300034: shirtsSheet_17
+    21300036: Midnight Rider
+    21300038: Eggplant
+    21300040: Blood Dragon
+    21300042: Red Lizard
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -123,6 +121,19 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
+      name: Plain Black T
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 190
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
       name: Black Knight
       rect:
         serializedVersion: 2
@@ -136,7 +147,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Black Polo Shirt
+      name: Black Lizard
       rect:
         serializedVersion: 2
         x: 68
@@ -149,7 +160,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Red Flannel
+      name: Olive Branch
       rect:
         serializedVersion: 2
         x: 102
@@ -162,7 +173,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Heart T Shirt
+      name: Lime Lizard
       rect:
         serializedVersion: 2
         x: 136
@@ -175,7 +186,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Navy Polo
+      name: String Bean
       rect:
         serializedVersion: 2
         x: 170
@@ -188,7 +199,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Olive Branch
+      name: Plain White T
       rect:
         serializedVersion: 2
         x: 204
@@ -201,10 +212,10 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Black T
+      name: Stary Night
       rect:
         serializedVersion: 2
-        x: 0
+        x: 34
         y: 190
         width: 32
         height: 32
@@ -214,11 +225,24 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Blue Flannel
+      name: Brown Bomb
       rect:
         serializedVersion: 2
-        x: 34
-        y: 190
+        x: 0
+        y: 156
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robit T
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 121
         width: 32
         height: 32
       alignment: 0
@@ -240,7 +264,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Green Flannel
+      name: Heart T
       rect:
         serializedVersion: 2
         x: 102
@@ -253,7 +277,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Midnight Ceo
+      name: Navy Lizard
       rect:
         serializedVersion: 2
         x: 136
@@ -266,7 +290,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Plain White T
+      name: Sea Weed
       rect:
         serializedVersion: 2
         x: 170
@@ -279,7 +303,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Dragon Scales
+      name: Magma Trails
       rect:
         serializedVersion: 2
         x: 204
@@ -292,20 +316,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Brown Flannel
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 156
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Caki Polo
+      name: Caki Lizard
       rect:
         serializedVersion: 2
         x: 34
@@ -318,7 +329,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Cock-A-Cola
+      name: shirtsSheet_17
       rect:
         serializedVersion: 2
         x: 68
@@ -331,7 +342,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Lime Polo
+      name: Midnight Rider
       rect:
         serializedVersion: 2
         x: 102
@@ -344,7 +355,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Seagreen CEO
+      name: Eggplant
       rect:
         serializedVersion: 2
         x: 136
@@ -357,7 +368,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Purple Sale
+      name: Blood Dragon
       rect:
         serializedVersion: 2
         x: 170
@@ -370,50 +381,11 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Woodman Flannel
+      name: Red Lizard
       rect:
         serializedVersion: 2
         x: 204
         y: 156
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Red Polo
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 122
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Suck It Soda
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 122
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Robit T
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 88
         width: 32
         height: 32
       alignment: 0
