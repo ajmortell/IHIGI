@@ -118,6 +118,7 @@ TagManager:
   - SkillMenuItemFab
   - SkillsMenuPanel
   - MainMenuPanel
+  - InventoryItemFab
   layers:
   - Default
   - TransparentFX

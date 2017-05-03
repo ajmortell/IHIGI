@@ -6,10 +6,13 @@ public class PlayerMenuManager : MonoBehaviour {
 
     public GameObject mainMenuPanel;
     public GameObject skillMenuPanel;
+    public GameObject inventoryMenuPanel;
 
     void Awake() {
-        mainMenuPanel.SetActive(true);
         skillMenuPanel.SetActive(false);
+        inventoryMenuPanel.SetActive(false);
+        mainMenuPanel.SetActive(true);
+        
     }
 
     public void OnArrowPress() {
@@ -18,15 +21,18 @@ public class PlayerMenuManager : MonoBehaviour {
     }
 
     public void OnBackArrowPress() {
-        mainMenuPanel.SetActive(true);
         skillMenuPanel.SetActive(false);
+        mainMenuPanel.SetActive(true);
+        
     }
 
     public void OnSecondArrowPress() {
         skillMenuPanel.SetActive(false);
+        inventoryMenuPanel.SetActive(true);
     }
 
-    public void OnSecondBackArrowPress() {    
+    public void OnSecondBackArrowPress() {
+        inventoryMenuPanel.SetActive(false);
         skillMenuPanel.SetActive(true);
     }
 }
