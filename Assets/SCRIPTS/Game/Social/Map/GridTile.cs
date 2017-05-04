@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class GridTile : MonoBehaviour {
 
     private Transform tileTransform;
-    private float tileWidth;
-    private float tileHeight;
+    //private float tileWidth;
+    //private float tileHeight;
     private RectTransform tileSize;
     private Scanner scanner;
     private bool tileClicked;
@@ -20,8 +20,8 @@ public class GridTile : MonoBehaviour {
         self = gameObject;
         tileSize = self.GetComponent<RectTransform>();
         Vector2 size = tileSize.rect.size;
-        tileWidth = size.x;
-        tileHeight = size.y;
+        //tileWidth = size.x;
+        //tileHeight = size.y;
         scanner = gameObject.GetComponentInChildren<Scanner>();
     }
 

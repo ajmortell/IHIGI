@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class NPC : MonoBehaviour {
 
     public GameObject npc;
-    Transform npcTransform;
+    //Transform npcTransform;
     private SpriteRenderer npcImage;
     private float sleep;
     private int mind;
@@ -20,7 +20,7 @@ public class NPC : MonoBehaviour {
     private void Awake () {
         //npc = GetComponent<GameObject>();
         npc = gameObject;
-        npcTransform = npc.transform;
+        //npcTransform = npc.transform;
         npcFocus = Random.Range(5.0f, 40.0f);
         npcEnergy = Random.Range(0.01f,0.05f);
         //print("++++//~~~~~~~~~~~~ NPC ENERGY: " + npcEnergy);

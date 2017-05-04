@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: a819aa8a92d4b0744af1ede878fddc81
-timeCreated: 1493823070
+timeCreated: 1493859638
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -21,8 +21,8 @@ TextureImporter:
     21300028: Sea Weed
     21300030: Magma Trails
     21300032: Caki Lizard
-    21300034: shirtsSheet_17
-    21300036: Midnight Rider
+    21300034: Tree Bark
+    21300036: Midnight Radar
     21300038: Eggplant
     21300040: Blood Dragon
     21300042: Red Lizard
@@ -329,7 +329,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: shirtsSheet_17
+      name: Tree Bark
       rect:
         serializedVersion: 2
         x: 68
@@ -342,7 +342,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Midnight Rider
+      name: Midnight Radar
       rect:
         serializedVersion: 2
         x: 102

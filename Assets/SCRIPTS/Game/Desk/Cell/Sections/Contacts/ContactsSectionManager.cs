@@ -9,7 +9,6 @@ public class ContactsSectionManager : MonoBehaviour {
 
     private int listCounter;
     private int tapcounter;
-    private bool isContactsOpen;
     private string currentLetter;
     private int contactIndex;
     private List<ContactsItem> contactsItems;//
@@ -27,7 +26,6 @@ public class ContactsSectionManager : MonoBehaviour {
     private void Awake() {
         listCounter = 0;
         tapcounter = 0;
-        isContactsOpen = false;
 
         contactsItems = new List<ContactsItem>();
         newItems = new List<GameObject>();

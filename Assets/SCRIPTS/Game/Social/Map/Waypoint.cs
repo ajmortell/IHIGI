@@ -5,13 +5,13 @@ using UnityEngine;
 
 public class Waypoint : MonoBehaviour {
 
-    private Transform waypointTranform;
+    //private Transform waypointTranform;
     public GameObject self;
 
     // Use this for initialization
     void Awake () {
         self = gameObject;
-        waypointTranform = self.transform;
+        //waypointTranform = self.transform;
     }
 
     void OnDrawGizmos() {

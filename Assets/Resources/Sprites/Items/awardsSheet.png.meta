@@ -1,13 +1,18 @@
 fileFormatVersion: 2
 guid: 2c6eab679dca1684984e2b98f968e1cd
-timeCreated: 1493822290
+timeCreated: 1493864932
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Diligence Award
-    21300002: Editing Award
-    21300004: Punctuality Award
-    21300006: Square Award
+    21300000: Speed Tasker
+    21300002: Astute Editor
+    21300004: Sharp Punctuality
+    21300006: Selfless Square
+    21300008: Time Master
+    21300010: Shooting Star
+    21300012: Straight Shooter
+    21300014: Character Builder
+    21300016: Wet Nurse
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -90,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Diligence Award
+      name: Speed Tasker
       rect:
         serializedVersion: 2
         x: 0
@@ -103,7 +108,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Editing Award
+      name: Astute Editor
       rect:
         serializedVersion: 2
         x: 34
@@ -116,7 +121,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Punctuality Award
+      name: Sharp Punctuality
       rect:
         serializedVersion: 2
         x: 68
@@ -129,11 +134,76 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Square Award
+      name: Selfless Square
       rect:
         serializedVersion: 2
         x: 0
         y: 62
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Time Master
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 62
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Shooting Star
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 62
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Straight Shooter
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Character Builder
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 28
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Wet Nurse
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 28
         width: 32
         height: 32
       alignment: 0

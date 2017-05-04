@@ -8,7 +8,6 @@ public class Item : MonoBehaviour {
     private bool isOwned;
 
     public Item () {
-
         isUnlocked = false;
         isOwned = false;
     }

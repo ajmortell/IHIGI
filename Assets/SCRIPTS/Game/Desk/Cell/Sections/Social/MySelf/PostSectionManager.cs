@@ -35,7 +35,7 @@ public class PostSectionManager : MonoBehaviour {
         foreach (PostItem item in postItems) {
             GameObject newItem = Instantiate(postItemPrefab) as GameObject;
             PostItemController controller = newItem.GetComponent<PostItemController>();
-            //controller.Name.text = item.Name;
+            controller.Name.text = item.Name;
             newItem.transform.SetParent(ContentPanel.transform);
             newItem.transform.localScale = Vector3.one;
         }
