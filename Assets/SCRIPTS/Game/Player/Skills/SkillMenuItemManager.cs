@@ -16,8 +16,7 @@ public class SkillMenuItemManager : MonoBehaviour {
     private void Awake() {
         skillValue = 0;
         skillValueString = skillValue.ToString();
-        layoutItems();
-        
+        layoutItems();       
     }
 
     public void cleanUp() {
@@ -36,13 +35,10 @@ public class SkillMenuItemManager : MonoBehaviour {
         cleanUp();
 
         GameObject player = GameObject.FindGameObjectWithTag("Player");
-        Skill skills = player.GetComponent<Skill>();
+        SkillData skills = player.GetComponent<SkillData>();
 
         System.Reflection.FieldInfo[] fields = skills.GetType().GetFields();
         foreach (System.Reflection.FieldInfo field in fields) {
-
-            print("RFI GET SKILL: "+ field.GetValue(skills));
-            
             skillValueString = field.GetValue(skills).ToString();
             skillMenuItems.Add(new SkillMenuItem(field.Name, skillValueString));
         }

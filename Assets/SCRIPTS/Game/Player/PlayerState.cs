@@ -5,8 +5,11 @@ using UnityEngine;
 public class PlayerState : MonoBehaviour {
 
     public static PlayerState Instance;
-    public PlayerData localPlayerData = new PlayerData();
 
+    public StatData localStatData = new StatData();
+    public SkillData localSkillData = new SkillData();
+    public ProfessionData localProfessionData = new ProfessionData();
+    
     void Awake() {
         if (Instance == null) {
             Instance = this;
@@ -14,14 +17,12 @@ public class PlayerState : MonoBehaviour {
         if (Instance != this) {
             Destroy(gameObject);
         }
-        GlobalControl.Instance.Player = gameObject;
+        GlobalControl.Instance.playerObject = gameObject;
     }
 
     void Start()  {
-        localPlayerData = GlobalControl.Instance.savedPlayerData;
-    }
-
-    void Update() {
-
+        localStatData = GlobalControl.Instance.savedStatData;
+        localSkillData = GlobalControl.Instance.savedSkillData;
+        localProfessionData = GlobalControl.Instance.savedProfessionData;
     }
 }

@@ -4,10 +4,10 @@ using UnityEngine;
 
 ///  this is the type of basic profession classes the user can be
 
-public class Profession : MonoBehaviour {
+public class ProfessionData : MonoBehaviour {
 
-    public enum ProfessionType
-    {
+    [HideInInspector]
+    public enum ProfessionType {
         UNEMPLOYED =0,
         ACADEMICS =1,
         ARTS =2,
@@ -19,8 +19,8 @@ public class Profession : MonoBehaviour {
         SERVICE =9,
     };
 
-    public enum ProfessionSubType
-    {
+    [HideInInspector]
+    public enum ProfessionSubType {
         ACCOUNTING,//INDUSTRY
         BUILDING,//INDUSTRY
         EDUCATION,//SERVICE
@@ -36,26 +36,14 @@ public class Profession : MonoBehaviour {
         SOFTWARE,// SCIENCE
     };
 
-
-    public int academics = 0;
-    public int arts = 0;
-    public int business = 0;
-    public int industry = 0;
-    public int medical = 0;
-    public int politics = 0;
-    public int science = 0;
-    public int service = 0;
-
-    void Awake() {
-
-    }
-
-    void Start() {
-
-    }
-
-    void Update() {
-
-    }
-
+    [HideInInspector] public ProfessionType professionType;
+    [HideInInspector] public ProfessionSubType professionSubType;
+    [HideInInspector] public int academics = 0;
+    [HideInInspector] public int arts = 0;
+    [HideInInspector] public int business = 0;
+    [HideInInspector] public int industry = 0;
+    [HideInInspector] public int medical = 0;
+    [HideInInspector] public int politics = 0;
+    [HideInInspector] public int science = 0;
+    [HideInInspector] public int service = 0;
 }

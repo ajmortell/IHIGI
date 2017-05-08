@@ -7,48 +7,57 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 public class GlobalControl : MonoBehaviour {
 
-    [HideInInspector]
-    public static GlobalControl Instance;
-    [HideInInspector]
-    public PlayerData savedPlayerData;
-    //[HideInInspector]
-    //public Skill savedSkills;
-    public GameObject Player;
+    [HideInInspector] public static GlobalControl Instance;
+
+    [HideInInspector] public StatData savedStatData;
+    [HideInInspector] public StatData LocalCopyOfStatData;
+    [HideInInspector] public SkillData savedSkillData;
+    [HideInInspector] public SkillData LocalCopyOfSkillData;
+    [HideInInspector] public ProfessionData savedProfessionData;
+    [HideInInspector] public ProfessionData LocalCopyOfProfessionData;
+
+    public GameObject playerObject;
+    [HideInInspector] public bool IsSceneBeingLoaded = false;
 
     void Awake() {
-        savedPlayerData = gameObject.AddComponent<PlayerData>();
-        //savedSkills = gameObject.AddComponent<Skill>();
+
+        savedStatData = gameObject.AddComponent<StatData>();
+        savedSkillData = gameObject.AddComponent<SkillData>();
+        savedProfessionData = gameObject.AddComponent<ProfessionData>();
 
         if (Instance == null) {
             DontDestroyOnLoad(gameObject);
             Instance = this;
-        }
-
-        else if (Instance != this) {
+        } else if (Instance != this) {
             Destroy(gameObject);
         }
-    }
-
-    [HideInInspector]
-    public PlayerData LocalCopyOfData;
-    [HideInInspector]
-    public bool IsSceneBeingLoaded = false;
+    } 
 
     public void SaveData() {
+
         if (!Directory.Exists("Saves"))
             Directory.CreateDirectory("Saves");
 
         BinaryFormatter formatter = new BinaryFormatter();
         FileStream saveFile = File.Create("Saves/save.binary");
-        LocalCopyOfData = PlayerState.Instance.localPlayerData;
-        formatter.Serialize(saveFile, LocalCopyOfData);
+
+        LocalCopyOfStatData = PlayerState.Instance.localStatData;
+        formatter.Serialize(saveFile, LocalCopyOfStatData);
+        LocalCopyOfSkillData = PlayerState.Instance.localSkillData;
+        formatter.Serialize(saveFile, LocalCopyOfSkillData);
+        LocalCopyOfProfessionData = PlayerState.Instance.localProfessionData;
+        formatter.Serialize(saveFile, LocalCopyOfProfessionData);
+        
         saveFile.Close();
     }
 
     public void LoadData() {
         BinaryFormatter formatter = new BinaryFormatter();
         FileStream saveFile = File.Open("Saves/save.binary", FileMode.Open);
-        LocalCopyOfData = (PlayerData)formatter.Deserialize(saveFile);
+        LocalCopyOfStatData = (StatData)formatter.Deserialize(saveFile);
+        LocalCopyOfSkillData = (SkillData)formatter.Deserialize(saveFile);
+        LocalCopyOfProfessionData = (ProfessionData)formatter.Deserialize(saveFile);
+
         saveFile.Close();
     }
 }

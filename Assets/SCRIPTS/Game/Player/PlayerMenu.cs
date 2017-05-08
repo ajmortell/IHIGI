@@ -1,34 +1,34 @@
-﻿using System.Collections;
+﻿using UnityEngine;
+using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMenu : MonoBehaviour {
 
-    public GameObject menuCanvas;
-   
-    private bool isOpen = false;
-    public bool canOpen = true;
+    private bool canOpen = true;
+    private int previousSceneID;
+    private int menuID;
 
     void Awake () {
-        menuCanvas.SetActive(false);
-      
+        menuID = 9;
+        previousSceneID = SceneManager.GetActiveScene().buildIndex;
     }
 
     void Update () {
+        if(SceneManager.GetActiveScene().buildIndex != menuID) {
+            if (SceneManager.GetActiveScene().buildIndex != previousSceneID) {
+                previousSceneID = SceneManager.GetActiveScene().buildIndex;
+            }
+        }
 
         if (Input.GetKeyDown("m")) {
             if (canOpen == true) {
-                isOpen = true;
                 canOpen = false;
-                print("OPEN");
-                menuCanvas.SetActive(isOpen);
-                
+                SceneManager.LoadScene(menuID);
             } else {
-                isOpen = false;
                 canOpen = true;
-                print("CLOSE");
-                menuCanvas.SetActive(isOpen);
-             
+                SceneManager.LoadScene(previousSceneID);
+                
             }
         }
     }

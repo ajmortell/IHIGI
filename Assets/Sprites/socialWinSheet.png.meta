@@ -1,0 +1,1184 @@
+fileFormatVersion: 2
+guid: e7d29b18767e57e47bae3fbe68452b7f
+timeCreated: 1494201970
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: socialWinSheet_0
+    21300002: socialWinSheet_1
+    21300004: socialWinSheet_2
+    21300006: socialWinSheet_3
+    21300008: socialWinSheet_4
+    21300010: socialWinSheet_5
+    21300012: socialWinSheet_6
+    21300014: socialWinSheet_7
+    21300016: socialWinSheet_8
+    21300018: socialWinSheet_9
+    21300020: socialWinSheet_10
+    21300022: socialWinSheet_11
+    21300024: socialWinSheet_12
+    21300026: socialWinSheet_13
+    21300028: socialWinSheet_14
+    21300030: socialWinSheet_15
+    21300032: socialWinSheet_16
+    21300034: socialWinSheet_17
+    21300036: socialWinSheet_18
+    21300038: socialWinSheet_19
+    21300040: socialWinSheet_20
+    21300042: socialWinSheet_21
+    21300044: socialWinSheet_22
+    21300046: socialWinSheet_23
+    21300048: socialWinSheet_24
+    21300050: socialWinSheet_25
+    21300052: socialWinSheet_26
+    21300054: socialWinSheet_27
+    21300056: socialWinSheet_28
+    21300058: socialWinSheet_29
+    21300060: socialWinSheet_30
+    21300062: socialWinSheet_31
+    21300064: socialWinSheet_32
+    21300066: socialWinSheet_33
+    21300068: socialWinSheet_34
+    21300070: socialWinSheet_35
+    21300072: socialWinSheet_36
+    21300074: socialWinSheet_37
+    21300076: socialWinSheet_38
+    21300078: socialWinSheet_39
+    21300080: socialWinSheet_40
+    21300082: socialWinSheet_41
+    21300084: socialWinSheet_42
+    21300086: socialWinSheet_43
+    21300088: socialWinSheet_44
+    21300090: socialWinSheet_45
+    21300092: socialWinSheet_46
+    21300094: socialWinSheet_47
+    21300096: socialWinSheet_48
+    21300098: socialWinSheet_49
+    21300100: socialWinSheet_50
+    21300102: socialWinSheet_51
+    21300104: socialWinSheet_52
+    21300106: socialWinSheet_53
+    21300108: socialWinSheet_54
+    21300110: socialWinSheet_55
+    21300112: socialWinSheet_56
+    21300114: socialWinSheet_57
+    21300116: socialWinSheet_58
+    21300118: socialWinSheet_59
+    21300120: socialWinSheet_60
+    21300122: socialWinSheet_61
+    21300124: socialWinSheet_62
+    21300126: socialWinSheet_63
+    21300128: socialWinSheet_64
+    21300130: socialWinSheet_65
+    21300132: socialWinSheet_66
+    21300134: socialWinSheet_67
+    21300136: socialWinSheet_68
+    21300138: socialWinSheet_69
+    21300140: socialWinSheet_70
+    21300142: socialWinSheet_71
+    21300144: socialWinSheet_72
+    21300146: socialWinSheet_73
+    21300148: socialWinSheet_74
+    21300150: socialWinSheet_75
+    21300152: socialWinSheet_76
+    21300154: socialWinSheet_77
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: socialWinSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 990
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 990
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 990
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_3
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 990
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 954
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 954
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 954
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_7
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 954
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 918
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_9
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 918
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 918
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_11
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 918
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 882
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_13
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 882
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 882
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_15
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 882
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 846
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_17
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 846
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_18
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 846
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_19
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 846
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 810
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_21
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 810
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_22
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 810
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_23
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 810
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 774
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_25
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 774
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_26
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 774
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_27
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 774
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 738
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_29
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 738
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_30
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 738
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_31
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 738
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 702
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_33
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 702
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_34
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 702
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_35
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 702
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 666
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_37
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 666
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_38
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 666
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_39
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 666
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 630
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_41
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 630
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_42
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 630
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_43
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 630
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 594
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_45
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 594
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_46
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 594
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_47
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 594
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 558
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_49
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 558
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_50
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 558
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_51
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 558
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 522
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_53
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 522
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_54
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 522
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_55
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 522
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 486
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_57
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 486
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_58
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 486
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_59
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 486
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_61
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 450
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_62
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 450
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_63
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 450
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 414
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_65
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 414
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_66
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 414
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_67
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 414
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 378
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_69
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 378
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_70
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 378
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_71
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 378
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 342
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_73
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 342
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_74
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 342
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_75
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 342
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 306
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: socialWinSheet_77
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 306
+        width: 118
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

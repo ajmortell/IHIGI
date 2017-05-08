@@ -4,10 +4,7 @@ using UnityEngine;
 
 [System.Serializable]
 
-public class Skill : MonoBehaviour {
-
-
-
+public class SkillData : MonoBehaviour {
 
     [HideInInspector]
     public int accuracy;
@@ -26,12 +23,9 @@ public class Skill : MonoBehaviour {
     [HideInInspector]
     public int assertion;
     [HideInInspector]
-    public int attention;
-    
+    public int attention;   
     [HideInInspector]
     public int building;
-
-
     [HideInInspector]
     public int caring;
     [HideInInspector]
@@ -54,8 +48,6 @@ public class Skill : MonoBehaviour {
     public int creativity;
     [HideInInspector]
     public int curiosity;
-
-
     [HideInInspector]
     public int dancing;
     [HideInInspector]
@@ -76,7 +68,6 @@ public class Skill : MonoBehaviour {
     public int detecting;
     [HideInInspector]
     public int driving;
-
     [HideInInspector]
     public int ethics;
     [HideInInspector]
@@ -91,13 +82,10 @@ public class Skill : MonoBehaviour {
     public int emotion;
     [HideInInspector]
     public int enforcing;
-
     [HideInInspector]
     public int friendship;
-
     [HideInInspector]
     public int gathering;
-
     [HideInInspector]
     public int hindsight;
     [HideInInspector]
@@ -106,7 +94,6 @@ public class Skill : MonoBehaviour {
     public int humor;
     [HideInInspector]
     public int handling;
-
     [HideInInspector]
     public int inspecting;
     [HideInInspector]
@@ -117,7 +104,6 @@ public class Skill : MonoBehaviour {
     public int intuition;
     [HideInInspector]
     public int interpreting;
-
     [HideInInspector]
     public int loyalty;
     [HideInInspector]
@@ -128,7 +114,6 @@ public class Skill : MonoBehaviour {
     public int listening;
     [HideInInspector]
     public int logic;
-
     [HideInInspector]
     public int maintenace;
     [HideInInspector]
@@ -139,19 +124,16 @@ public class Skill : MonoBehaviour {
     public int multiTasking;
     [HideInInspector]
     public int mechanic;
-
     [HideInInspector]
     public int navigation;
     [HideInInspector]
     public int negotiation;
     [HideInInspector]
     public int nonverbal;
-
     [HideInInspector]
     public int organization;
     [HideInInspector]
     public int operation;
-
     [HideInInspector]
     public int pursuasion;
     [HideInInspector]
@@ -176,7 +158,6 @@ public class Skill : MonoBehaviour {
     public int passion;
     [HideInInspector]
     public int perception;
-
     [HideInInspector]
     public int relaxation;
     [HideInInspector]
@@ -184,8 +165,7 @@ public class Skill : MonoBehaviour {
     [HideInInspector]
     public int rhythm;
     [HideInInspector]
-    public int reading;
-    
+    public int reading;    
     [HideInInspector]
     public int serving;
     [HideInInspector]
@@ -196,13 +176,10 @@ public class Skill : MonoBehaviour {
     public int sense;
     [HideInInspector]
     public int social;
-
     [HideInInspector]
     public int teaching;
     [HideInInspector]
     public int tracking;
-
     [HideInInspector]
     public int writing;
-
 }
