@@ -15,7 +15,6 @@ public class OpenStartPanel : MonoBehaviour {
 
     public void OnBtnPress() {
         if (canOpen == true) {
-            Debug.Log(Name + " Opened");
             canOpen = false;
             panel.SetActive(true);
         } else {

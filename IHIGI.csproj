@@ -52,9 +52,6 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -69,9 +66,6 @@
     </Reference>
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VR">
       <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
@@ -146,6 +140,17 @@
     <Compile Include="Assets\Scripts\Game\Desk\OpenBlinds.cs" />
     <Compile Include="Assets\Scripts\Game\Desk\OpenStartPanel.cs" />
     <Compile Include="Assets\Scripts\Game\Desk\RightDrawer.cs" />
+    <Compile Include="Assets\Scripts\Game\Desk\RingPhone.cs" />
+    <Compile Include="Assets\Scripts\Game\Dialog\BringToFront.cs" />
+    <Compile Include="Assets\Scripts\Game\Dialog\Dialog.cs" />
+    <Compile Include="Assets\Scripts\Game\Dialog\DialogData.cs" />
+    <Compile Include="Assets\Scripts\Game\Dialog\DialogNode.cs" />
+    <Compile Include="Assets\Scripts\Game\Dialog\DialogOption.cs" />
+    <Compile Include="Assets\Scripts\Game\Dialog\DisplayManager.cs" />
+    <Compile Include="Assets\Scripts\Game\Dialog\ModalPanel.cs" />
+    <Compile Include="Assets\Scripts\Game\Dialog\NarrationManager.cs" />
+    <Compile Include="Assets\Scripts\Game\Dialog\Program.cs" />
+    <Compile Include="Assets\Scripts\Game\Dialog\TestModalWindow.cs" />
     <Compile Include="Assets\Scripts\Game\DisableAwake.cs" />
     <Compile Include="Assets\Scripts\Game\GameTimer.cs" />
     <Compile Include="Assets\Scripts\Game\IntroScript.cs" />
@@ -157,6 +162,7 @@
     <Compile Include="Assets\Scripts\Game\Items\Item.cs" />
     <Compile Include="Assets\Scripts\Game\LblBlink.cs" />
     <Compile Include="Assets\Scripts\Game\LoadScene.cs" />
+    <Compile Include="Assets\Scripts\Game\LowerImage.cs" />
     <Compile Include="Assets\Scripts\Game\Menus\Main\SkillItem.cs" />
     <Compile Include="Assets\Scripts\Game\Menus\Main\SkillItemController.cs" />
     <Compile Include="Assets\Scripts\Game\Menus\Main\SkillMenuManager.cs" />

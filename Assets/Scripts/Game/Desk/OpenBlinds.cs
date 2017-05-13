@@ -13,9 +13,6 @@ public class OpenBlinds : MonoBehaviour {
         panel = GameObject.Find(Name);
         panel.SetActive(true);
         panelRect = panel.GetComponent<RectTransform>();
-        print("PANEL RECT WIDTH:" + panelRect.rect.width);
-
-        print("PANEL RECT HIGHT:" + panelRect.rect.height);
     }
 
     public IEnumerator shrinkBlind() {

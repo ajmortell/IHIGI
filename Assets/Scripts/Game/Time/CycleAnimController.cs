@@ -14,9 +14,6 @@ public class CycleAnimController : MonoBehaviour {
     public SpriteRenderer cycleSprite;
 
     
-
-    
-
     void Awake() {
         
         animator = GetComponent<Animator>();

@@ -28,7 +28,7 @@ public class PlayerDataManager : MonoBehaviour {
         foreach (System.Reflection.FieldInfo field in skillFields) {
             string stringValue = field.GetValue(skillData).ToString();
             value = System.Convert.ToInt32(stringValue);
-            Debug.Log("NAME: " + field.Name + " VALUE: " + value);
+            //Debug.Log("NAME: " + field.Name + " VALUE: " + value);
            
             //skillMenuItems.Add(new SkillMenuItem(field.Name, skillValueString));
         }
