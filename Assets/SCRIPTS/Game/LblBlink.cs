@@ -6,7 +6,6 @@ using UnityEngine.EventSystems;
 using System.Collections.Generic;
 
 public class LblBlink : MonoBehaviour {
-
     
     private GameObject blinkLblObj;
     private Text blinkLbl;

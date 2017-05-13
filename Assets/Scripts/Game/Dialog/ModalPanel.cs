@@ -12,15 +12,12 @@ public class ModalPanel : MonoBehaviour {
 
     public Image avatar;// if any this will be for character avatars
     public GameObject modalPanelObject;// the model window panel
-
     private static ModalPanel modalPanel;
 
-    void Awake() {
-        
+    void Awake() {  
     }
 
     public static ModalPanel Instance () {
-
         if(!modalPanel) {
             modalPanel = FindObjectOfType(typeof(ModalPanel)) as ModalPanel;
             if (!modalPanel) {
@@ -53,24 +50,15 @@ public class ModalPanel : MonoBehaviour {
         BtnC.GetComponentInChildren<Text>().text = "LOAD CHOICES FROM DIALOGE TREE HERE";
     }
 
-    public void Narrative(UnityAction skipBtnEvent, UnityAction nextBtnEvent)
-    {
+    public void Narrative(UnityAction skipBtnEvent) {
         modalPanelObject.SetActive(true);
-
         BtnA.onClick.RemoveAllListeners();
         BtnA.onClick.AddListener(skipBtnEvent);        
-        BtnB.onClick.RemoveAllListeners();
-        BtnB.onClick.AddListener(nextBtnEvent);
-
         BtnA.gameObject.SetActive(true);
-        BtnB.gameObject.SetActive(true);
-
         BtnA.GetComponentInChildren<Text>().text = "SKIP";
-        BtnB.GetComponentInChildren<Text>().text = "NEXT";
     }
 
-    public void Question(string dialouge, UnityAction okBtnEvent)
-    {
+    public void Question(string dialouge, UnityAction okBtnEvent) {
         modalPanelObject.SetActive(true);
 
         BtnA.onClick.RemoveAllListeners();

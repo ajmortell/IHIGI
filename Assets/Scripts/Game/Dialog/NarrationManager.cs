@@ -9,7 +9,6 @@ public class NarrationManager : MonoBehaviour {
     private ModalPanel modalPanel;
     private DisplayManager displayManager;
     private UnityAction SkipBtnAction;
-    private UnityAction NextBtnAction;
     public GameObject SceneBPanel;
     public GameObject SceneCPanel;
     private int counter;
@@ -21,7 +20,6 @@ public class NarrationManager : MonoBehaviour {
         SceneCPanel.SetActive(false);
         displayManager = DisplayManager.Instance();
         SkipBtnAction = new UnityAction(OnSkipBtn);
-        NextBtnAction = new UnityAction(OnNextBtn);
         Narrate();
     }
 
@@ -68,18 +66,12 @@ public class NarrationManager : MonoBehaviour {
     }
 
     public void Narrate() {
-        modalPanel.Narrative(SkipBtnAction, NextBtnAction);
+        modalPanel.Narrative(SkipBtnAction);
         StartCoroutine(InitialNarative());
     }
 
     void OnSkipBtn() {
         SceneManager.LoadScene(10);
-    }
-
-    void OnNextBtn() {
-        // GO TO NEXT INTRO PANEL
-        GoToNextPanel();
-
     }
 
     // add new scenes = add new ifs before last
