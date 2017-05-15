@@ -6,14 +6,12 @@ using UnityEngine.SceneManagement;
 public class Room : MonoBehaviour {
 
     public GameObject navigationPanel;
-
     public GameObject rightBtnObject;
     public GameObject leftBtnObject;
-
     public GameObject doorBtnObject;
     public GameObject doorOpenPanel;
 
-    private float speed = 30.0f;
+    private float speed = 40.0f;
 
     bool movingLeft;
     bool movingRight;
@@ -40,7 +38,7 @@ public class Room : MonoBehaviour {
     }
 
     IEnumerator exit() {
-        yield return new WaitForSeconds(3.5f);
+        yield return new WaitForSeconds(1.5f);
         SceneManager.LoadScene(1);
     }
 
@@ -79,8 +77,7 @@ public class Room : MonoBehaviour {
             float step = speed * Time.deltaTime;
             navigationPanel.transform.position = Vector3.MoveTowards(navigationPanel.transform.position, new Vector3(0, 0, 0), step);
 
-            if (navigationPanel.transform.position == new Vector3(0,0,0)) {
-                print("Nav panel is @ 0 , 0");
+            if (navigationPanel.transform.position == new Vector3(0,0,0)) {             
                 movingLeft = false;
                 
             }
@@ -91,7 +88,6 @@ public class Room : MonoBehaviour {
             navigationPanel.transform.position = Vector3.MoveTowards(navigationPanel.transform.position, new Vector3(128, 0, 0), step);
 
             if (navigationPanel.transform.position == new Vector3(128, 0, 0)) {
-                print("Nav panel is @ 128 , 0");
                 movingRight = false;
             }
         }
