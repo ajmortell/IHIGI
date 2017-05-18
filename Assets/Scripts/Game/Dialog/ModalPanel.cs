@@ -5,16 +5,32 @@ using System.Collections;
 
 public class ModalPanel : MonoBehaviour {
 
-    public Text dialouge; // this is the display text at any given instance
-    public Button BtnA; // these will be dialouge choices for the player. if NPC. else skip and next btns
+    public Text dialougeText; // this is the display text at any given instance
+    public Button BtnA; // these should able to be used for any button needed
     public Button BtnB;
     public Button BtnC;
+    public Button BtnExit; // exits the window if needed
+    public Button BtnNext; // next set of dialouge if needed
 
-    public Image avatar;// if any this will be for character avatars
+    public Image avatar;// if any this will be for main npc character dialouge imgs
     public GameObject modalPanelObject;// the model window panel
-    private static ModalPanel modalPanel;
+    private static ModalPanel modalPanel;// this script instance
+
+    private RectTransform panelRect; // this should be used to get and set the pos of a given panel
+    private Vector2 panelSize; // the current size then resize if needed
 
     void Awake() {  
+        this.panelRect = (RectTransform)modalPanelObject.transform;
+        this.panelSize = panelRect.sizeDelta;
+        print("PANEL SIZE: "+panelSize);
+    }
+
+    public RectTransform getPanelTransform() {
+        return panelRect;
+    }
+
+    public Vector2 getPanelSize() {
+        return panelSize;
     }
 
     public static ModalPanel Instance () {
@@ -27,8 +43,9 @@ public class ModalPanel : MonoBehaviour {
         return modalPanel;
     }
 
+    
     // choice a / choice b / choice c: A string and 3 event choices for the player to make.
-    public void Choice(string dialouge, UnityAction choiceAEvent, UnityAction choiceBEvent, UnityAction choiceCEvent) {
+    public void NPCDialouge(string dialouge, Image img, UnityAction choiceAEvent, bool isA_Active, UnityAction choiceBEvent, bool isB_Active, UnityAction choiceCEvent, bool isC_Active) {
 
         modalPanelObject.SetActive(true);
 
@@ -37,19 +54,30 @@ public class ModalPanel : MonoBehaviour {
         BtnB.onClick.RemoveAllListeners();
         BtnB.onClick.AddListener(choiceBEvent);      
         BtnC.onClick.RemoveAllListeners();
-        BtnC.onClick.AddListener(choiceCEvent);      
+        BtnC.onClick.AddListener(choiceCEvent);
 
-        this.dialouge.text = dialouge;
-        this.avatar.gameObject.SetActive(false);//this is only for main NPCs and other graphics in text
-        BtnA.gameObject.SetActive(true);
-        BtnB.gameObject.SetActive(true);
-        BtnC.gameObject.SetActive(true);
+        BtnExit.onClick.RemoveAllListeners();
+        BtnExit.onClick.AddListener(ClosePanel);
+        BtnNext.onClick.RemoveAllListeners();
+        BtnNext.onClick.AddListener(choiceCEvent);
+
+        this.dialougeText.text = dialouge;
+        if (img = null) {
+            this.avatar.gameObject.SetActive(false);
+        } else {
+            this.avatar.gameObject.SetActive(true);
+        }
+
+        BtnA.gameObject.SetActive(isA_Active);
+        BtnB.gameObject.SetActive(isB_Active);
+        BtnC.gameObject.SetActive(isC_Active);
 
         BtnA.GetComponentInChildren<Text>().text = "LOAD CHOICES FROM DIALOGE TREE HERE";
         BtnB.GetComponentInChildren<Text>().text = "LOAD CHOICES FROM DIALOGE TREE HERE";
         BtnC.GetComponentInChildren<Text>().text = "LOAD CHOICES FROM DIALOGE TREE HERE";
     }
 
+    // The Narative is for story elements like in teh intro at the bottom screen
     public void Narrative(UnityAction skipBtnEvent) {
         modalPanelObject.SetActive(true);
         BtnA.onClick.RemoveAllListeners();
@@ -58,6 +86,7 @@ public class ModalPanel : MonoBehaviour {
         BtnA.GetComponentInChildren<Text>().text = "SKIP";
     }
 
+    // This can be used for simple ok responses
     public void Question(string dialouge, UnityAction okBtnEvent) {
         modalPanelObject.SetActive(true);
 
@@ -65,7 +94,7 @@ public class ModalPanel : MonoBehaviour {
         BtnA.onClick.AddListener(okBtnEvent);
         BtnA.onClick.AddListener(ClosePanel);
         BtnA.GetComponentInChildren<Text>().text = "OK";
-        this.dialouge.text = dialouge;
+        this.dialougeText.text = dialouge;
         BtnA.gameObject.SetActive(true);
     }
 

@@ -13,7 +13,6 @@ public class LblBlink : MonoBehaviour {
 	void Awake () {
         blinkLblObj = gameObject;
         blinkLbl = blinkLblObj.GetComponent<Text>();
-        StartBlinking();
     }
 
     IEnumerator Blink() {
@@ -21,16 +20,24 @@ public class LblBlink : MonoBehaviour {
             switch (blinkLbl.color.a.ToString()) {
                 case "0":
                     blinkLbl.color = new Color(blinkLbl.color.r, blinkLbl.color.g, blinkLbl.color.b, 1);
-                    //Play sound
+                    
                     yield return new WaitForSeconds(0.5f);
                     break;
                 case "1":
                     blinkLbl.color = new Color(blinkLbl.color.r, blinkLbl.color.g, blinkLbl.color.b, 0);
-                    //Play sound
+                    
                     yield return new WaitForSeconds(0.5f);
                     break;
             }
         }
+    }
+
+    private void OnEnable() {
+        StartBlinking();
+    }
+
+    private void OnDisable() {
+        StopBlinking();
     }
 
     void StartBlinking() {

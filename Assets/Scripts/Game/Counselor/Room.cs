@@ -10,7 +10,6 @@ public class Room : MonoBehaviour {
     public GameObject leftBtnObject;
     public GameObject doorBtnObject;
     public GameObject doorOpenPanel;
-
     private float speed = 40.0f;
 
     bool movingLeft;
@@ -61,6 +60,7 @@ public class Room : MonoBehaviour {
         offset = Vector3.zero;
 
         switch (direction) {
+
             case "left":            
                 movingLeft = true;
                 break;
@@ -78,8 +78,7 @@ public class Room : MonoBehaviour {
             navigationPanel.transform.position = Vector3.MoveTowards(navigationPanel.transform.position, new Vector3(0, 0, 0), step);
 
             if (navigationPanel.transform.position == new Vector3(0,0,0)) {             
-                movingLeft = false;
-                
+                movingLeft = false;     
             }
         }
 
@@ -90,7 +89,6 @@ public class Room : MonoBehaviour {
             if (navigationPanel.transform.position == new Vector3(128, 0, 0)) {
                 movingRight = false;
             }
-        }
-            
+        }           
     }
 }
