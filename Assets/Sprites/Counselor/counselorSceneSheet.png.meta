@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 18fb384028497b441b47f9f063071e44
-timeCreated: 1494428429
+timeCreated: 1496758639
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -92,6 +92,22 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -152,9 +168,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 378
+        y: 376
         width: 12
-        height: 21
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

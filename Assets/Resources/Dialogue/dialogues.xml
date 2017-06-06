@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Dialogue xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http:www.w3.org/2001/XMLSchema-instance">
+
+  <NPCNodes>
+
+    <!-- Start Counselor Node -->
+    <NPCNode>
+
+      <NPCNodeId>0</NPCNodeId>
+      <NPCName>Counselor</NPCName>
+      <DialogueNodes>
+        
+        <DialogueNode>
+          <DialogueNodeID>0</DialogueNodeID>
+          <DialogueText>Hi. Welcome. How can I help you?</DialogueText>
+          <Options>
+            <DialogueOption>
+              <OptionText>Hi I'm here for job counseling.</OptionText>
+              <DestinationNodeID>1</DestinationNodeID>
+            </DialogueOption>
+            <DialogueOption>
+              <OptionText>Exit</OptionText>
+              <DestinationNodeID>-1</DestinationNodeID>
+            </DialogueOption>
+          </Options>
+        </DialogueNode>
+
+        <DialogueNode>
+          <DialogueNodeID>1</DialogueNodeID>
+          <DialogueText>Great! I'm [NPC_NAME]. What is your name?</DialogueText>
+          <Options>
+            <DialogueOption>
+              <OptionText>My name is [PLAYER_NAME]. Nice to meet you</OptionText>
+              <DestinationNodeID>-1</DestinationNodeID>
+            </DialogueOption>       
+          </Options>
+        </DialogueNode>
+    
+      </DialogueNodes>
+    </NPCNode>
+    <!-- End Counslor Node -->
+
+    <!-- Start Random NPC Node -->
+    <NPCNode>
+
+      <NPCNodeId>1</NPCNodeId>
+      <NPCName>Counselor</NPCName>
+      <DialogueNodes>
+
+        <DialogueNode>
+          <DialogueNodeID>0</DialogueNodeID>
+          <DialogueText>Hi can I help you?</DialogueText>
+          <Options>
+            <DialogueOption>
+              <OptionText>Hi I'm new to the area.</OptionText>
+              <DestinationNodeID>1</DestinationNodeID>
+            </DialogueOption>
+            <DialogueOption>
+              <OptionText>Exit</OptionText>
+              <DestinationNodeID>-1</DestinationNodeID>
+            </DialogueOption>
+          </Options>
+        </DialogueNode>
+
+        <DialogueNode>
+          <DialogueNodeID>1</DialogueNodeID>
+          <DialogueText>Well that is interesting. What's your name?</DialogueText>
+          <Options>
+            <DialogueOption>
+              <OptionText>My name is [PLAYER_NAME]. Nice to meet you</OptionText>
+              <DestinationNodeID>-1</DestinationNodeID>
+            </DialogueOption>
+            <DialogueOption>
+              <OptionText>Exit</OptionText>
+              <DestinationNodeID>-1</DestinationNodeID>
+            </DialogueOption>
+          </Options>
+        </DialogueNode>
+
+      </DialogueNodes>
+    </NPCNode>
+    <!-- End Random Node -->
+
+  </NPCNodes>
+
+</Dialogue>
+
+

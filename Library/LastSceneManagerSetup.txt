@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Cut/IntroScene_01.unity
+- path: Assets/Scenes/Game/CounselorScene/CounselorScene.unity
   isLoaded: 1
   isActive: 1
