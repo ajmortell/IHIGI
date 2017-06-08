@@ -16,6 +16,7 @@ namespace DialogueTree {
 
         // Constructor
         public NPCNode(string name) {
+
             NPCName = name;
             DialogueNodes = new List<DialogueNode>();
         }

@@ -87,18 +87,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Resources\Dialogue\Dialogue.cs" />
-    <Compile Include="Assets\Resources\Dialogue\DialogueNode.cs" />
-    <Compile Include="Assets\Resources\Dialogue\DialogueOption.cs" />
-    <Compile Include="Assets\Resources\Dialogue\NPC.cs" />
-    <Compile Include="Assets\Resources\Dialogue\NPCDialogue.cs" />
-    <Compile Include="Assets\Resources\Dialogue\NPCNode.cs" />
     <Compile Include="Assets\Scripts\Game\AnimCtrlr.cs" />
     <Compile Include="Assets\Scripts\Game\AnimateText.cs" />
     <Compile Include="Assets\Scripts\Game\BringToFront.cs" />
     <Compile Include="Assets\Scripts\Game\ButtonBlink.cs" />
+    <Compile Include="Assets\Scripts\Game\CamFollow.cs" />
     <Compile Include="Assets\Scripts\Game\Conditional.cs" />
-    <Compile Include="Assets\Scripts\Game\Counselor\CamFollow.cs" />
     <Compile Include="Assets\Scripts\Game\Counselor\Room.cs" />
     <Compile Include="Assets\Scripts\Game\Cut\Cut_00\MoveCars.cs" />
     <Compile Include="Assets\Scripts\Game\Desk\Cell\BackButton.cs" />
@@ -157,6 +151,12 @@
     <Compile Include="Assets\Scripts\Game\Desk\OpenStartPanel.cs" />
     <Compile Include="Assets\Scripts\Game\Desk\RightDrawer.cs" />
     <Compile Include="Assets\Scripts\Game\Desk\RingPhone.cs" />
+    <Compile Include="Assets\Scripts\Game\Dialogue\Dialogue.cs" />
+    <Compile Include="Assets\Scripts\Game\Dialogue\DialogueNode.cs" />
+    <Compile Include="Assets\Scripts\Game\Dialogue\DialogueOption.cs" />
+    <Compile Include="Assets\Scripts\Game\Dialogue\NPC.cs" />
+    <Compile Include="Assets\Scripts\Game\Dialogue\NPCDialogue.cs" />
+    <Compile Include="Assets\Scripts\Game\Dialogue\NPCNode.cs" />
     <Compile Include="Assets\Scripts\Game\DisableAwake.cs" />
     <Compile Include="Assets\Scripts\Game\GameTimer.cs" />
     <Compile Include="Assets\Scripts\Game\IntroScript.cs" />
@@ -211,6 +211,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\Dialogue\dialogues.xml" />
+    <None Include="Assets\Resources\Player\userprofiles.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

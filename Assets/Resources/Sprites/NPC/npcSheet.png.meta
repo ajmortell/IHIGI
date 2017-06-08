@@ -1,12 +1,12 @@
 fileFormatVersion: 2
 guid: 960b5a8f18eaf6149813e0e1a901898d
-timeCreated: 1496761297
+timeCreated: 1496801448
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Melani
-    21300002: Thomas
-    21300004: Chad
+    21300000: melani
+    21300002: thomas
+    21300004: chad
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Melani
+      name: melani
       rect:
         serializedVersion: 2
         x: 177
@@ -113,12 +113,12 @@ TextureImporter:
         width: 12
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Thomas
+      name: thomas
       rect:
         serializedVersion: 2
         x: 159
@@ -126,12 +126,12 @@ TextureImporter:
         width: 12
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Chad
+      name: chad
       rect:
         serializedVersion: 2
         x: 198
@@ -139,7 +139,7 @@ TextureImporter:
         width: 12
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

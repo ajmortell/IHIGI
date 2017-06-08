@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<UserProfile xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http:www.w3.org/2001/XMLSchema-instance">
+
+  <UserNodes>
+    
+    <UserDataNode>
+    <UserId>0</UserId>
+    <UserFirstName>[player_first_name]</UserFirstName>
+    <UserLastName>[player_last_name]</UserLastName>
+    </UserDataNode>
+  
+  </UserNodes>
+  
+</UserProfile>

@@ -23,7 +23,8 @@ public class NPCDialogue : MonoBehaviour {
     private GameObject option_3;
     private GameObject exit;
     private int selected_dialogue_node = -2;
-    private int selected_option = -2;  
+    private int selected_option = -2;
+    private int dialogueDestinationNode = 0;
     // Data
     private Dialogue dialogue;
     private GameObject dialoguePanel;
@@ -50,7 +51,8 @@ public class NPCDialogue : MonoBehaviour {
         npc = gameObject;// this script is attached to an NPC
         npcScript = npc.GetComponent<NPC>(); // make sure we have the NPC script access on this npc
         npcId = npcScript.Id; // NPC ID. which NPC the player is speaking to
-        npcName = npcScript.getName(); // NPC name for Identification and display from npc script 
+        npcName = npcScript.getName(); // NPC name for Identification and display from npc script
+       
         avatarImgPanel = GameObject.Find("NPCAvatarPanel");// the image panel for the NPC dialogue Avatar
         avatarImgPanel.GetComponentInChildren<Image>().sprite = npcScript.getAvatarImg();// take the NPC clicked base image and applies it to the dia av
         npc_btn = npc.GetComponent<Button>();
@@ -58,48 +60,23 @@ public class NPCDialogue : MonoBehaviour {
     }
 
     public void RunDialogue() {
-       StartCoroutine(initiate_npc_dialogue_node(dialogue.NPCNodes[npcId]));
+        StartCoroutine(initiate_npc_node(dialogue.NPCNodes[npcId]));
     }
 
-    private IEnumerator initiate_npc_dialogue_node(NPCNode node) {
-       
-        int node_id = 0;
-        while (node_id != -1) { //
-            StartCoroutine(run(node.DialogueNodes[node_id]));
-            selected_dialogue_node = -2;
-            print("RUNNING 1 " + node.NPCName + " DialogueNode");
-            while (selected_dialogue_node == -2) {
-                print("RUNNING 2 " +node.NPCName + " DialogueNode");         
-                yield return new WaitForSeconds(0.25f);
-            }
-            node_id = selected_dialogue_node;
-        } //  
-        dialoguePanel.SetActive(false);
-    }
-
-    private void set_dialogue(DialogueNode node) {
-        SetSelectedDialogue(node.DialogueNodeID);
-    }
-
-    private void SetSelectedDialogue(int x) {
-        selected_dialogue_node = x;
-    }
-
-    public IEnumerator run(DialogueNode node) {
-
+    private IEnumerator initiate_npc_node(NPCNode node) {
         dialoguePanel.SetActive(true);
         int node_id = 0;
 
         while (node_id != -1) { //
-            display_node(node);
+            display_node(node.DialogueNodes[node_id]);
             selected_option = -2;
-            
-            while (selected_option == -2) {             
+
+            while (selected_option == -2) { //      
                 yield return new WaitForSeconds(0.25f);
-            }
+            }//
             node_id = selected_option;
-            
-        } //
+        }
+        dialoguePanel.SetActive(false);
         unSelectedNPC();
     }
 
@@ -113,13 +90,13 @@ public class NPCDialogue : MonoBehaviour {
         option_2.SetActive(false);
         option_3.SetActive(false);
 
-        for (int i = 0; i < node.Options.Count || i < 2; i++){
+        for (int i = 0; i < node.Options.Count || i < 1; i++) {
             switch (i) {
                 case 0:
-                    set_option_button(option_1, node.Options[i]);
+                    set_option_button(option_1, node.Options[i]);                 
                     break;
                 case 1:
-                    set_option_button(option_2, node.Options[i]);
+                    set_option_button(option_2, node.Options[i]);                
                     break;
                 case 2:
                     set_option_button(option_3, node.Options[i]);
@@ -132,9 +109,10 @@ public class NPCDialogue : MonoBehaviour {
         button.SetActive(true);// sets sent btn ON
         button.GetComponentInChildren<Text>().text = option.OptionText;// fills text with xml option txt
         button.GetComponent<Button>().onClick.AddListener(delegate { SetSelectedOption(option.DestinationNodeID); });
+        print("OPTION Destination Node: " + option.DestinationNodeID);
     }
 
     private void SetSelectedOption(int x) {
-        selected_option = x;     
+        selected_option = x;
     }
 }
